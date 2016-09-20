@@ -13,7 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="JSONtext" Type="Folder">
-			<Item Name="JSON2.lvlib" Type="Library" URL="../JSON2.lvlib"/>
+			<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Test Unnamed Clusters to JSON Arrays.vi"/>
 			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Utility ASCII values.vi"/>
 		</Item>
