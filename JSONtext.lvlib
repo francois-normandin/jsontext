@@ -9,13 +9,16 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
-		<Item Name="Get Object Item by Name.vi" Type="VI" URL="../Get Object Item by Name.vi"/>
+		<Item Name="Get Object Item by Path (poly).vi" Type="VI" URL="../Get Object Item by Path (poly).vi"/>
+		<Item Name="Get Object Item by Path.vi" Type="VI" URL="../Get Object Item by Path.vi"/>
+		<Item Name="Get Nested Object Item by Name Array.vi" Type="VI" URL="../Get Nested Object Item by Name Array.vi"/>
 		<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
-		<Item Name="JSON text to Variant NR OLD.vi" Type="VI" URL="../JSON text to Variant NR OLD.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
+		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
 		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Find Object Item Offset by Name.vi"/>
@@ -27,6 +30,7 @@
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
 		<Item Name="Advance past comma.vi" Type="VI" URL="../Advance past comma.vi"/>
 		<Item Name="Advance past next JSON Scaler.vi" Type="VI" URL="../Advance past next JSON Scaler.vi"/>
+		<Item Name="Advance past next JSON Value (inlined COPY).vi" Type="VI" URL="../Advance past next JSON Value (inlined COPY).vi"/>
 		<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
 		<Item Name="Advance past Number.vi" Type="VI" URL="../Advance past Number.vi"/>
 		<Item Name="Advance past Object.vi" Type="VI" URL="../Advance past Object.vi"/>
@@ -39,13 +43,9 @@
 		<Item Name="JSON2 speed.vi" Type="VI" URL="../JSON2 speed.vi"/>
 		<Item Name="Variant Tools Test.vi" Type="VI" URL="../Variant Tools Test.vi"/>
 	</Item>
-	<Item Name="Advance past next JSON Value (COPY).vi" Type="VI" URL="../Advance past next JSON Value (COPY).vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
 	<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
-	<Item Name="Get Nested Object Item by Name Array.vi" Type="VI" URL="../Get Nested Object Item by Name Array.vi"/>
 	<Item Name="Get Number Text (inlined).vi" Type="VI" URL="../Get Number Text (inlined).vi"/>
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
 	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
