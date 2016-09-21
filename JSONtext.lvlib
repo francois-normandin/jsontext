@@ -10,8 +10,10 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
+		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Get Object Item by Name.vi" Type="VI" URL="../Get Object Item by Name.vi"/>
 		<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
+		<Item Name="JSON text to Variant NR OLD.vi" Type="VI" URL="../JSON text to Variant NR OLD.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 	</Item>
@@ -40,10 +42,13 @@
 	<Item Name="Advance past next JSON Value (COPY).vi" Type="VI" URL="../Advance past next JSON Value (COPY).vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
 	<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
+	<Item Name="Get Nested Object Item by Name Array.vi" Type="VI" URL="../Get Nested Object Item by Name Array.vi"/>
 	<Item Name="Get Number Text (inlined).vi" Type="VI" URL="../Get Number Text (inlined).vi"/>
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
+	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
 	<Item Name="JSON Value Search.ctl" Type="VI" URL="../JSON Value Search.ctl"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 	<Item Name="Variant Array to JSON Array text.vi" Type="VI" URL="../Variant Array to JSON Array text.vi"/>
