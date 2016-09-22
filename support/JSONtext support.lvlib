@@ -8,7 +8,7 @@
 
 </Property>
 	<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../../Array of Variants to Cluster.vi"/>
-	<Item Name="First Char (offset).vi" Type="VI" URL="../First Char (offset).vi"/>
+	<Item Name="First NonWhitespace.vi" Type="VI" URL="../First NonWhitespace.vi"/>
 	<Item Name="Format JSON Array Text.vi" Type="VI" URL="../Format JSON Array Text.vi"/>
 	<Item Name="Format JSON Object.vi" Type="VI" URL="../Format JSON Object.vi"/>
 	<Item Name="Infinity&amp;NaN.ctl" Type="VI" URL="../Infinity&amp;NaN.ctl"/>

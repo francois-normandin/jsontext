@@ -23,6 +23,7 @@
 		<Item Name="Read Ratiometer file.vi" Type="VI" URL="../Read Ratiometer file.vi"/>
 		<Item Name="Untitled 16.vi" Type="VI" URL="../Untitled 16.vi"/>
 		<Item Name="Read Ratiometer file Full Data.vi" Type="VI" URL="../Read Ratiometer file Full Data.vi"/>
+		<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
@@ -117,6 +118,7 @@
 				<Item Name="TD_Length.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Length.ctl"/>
 				<Item Name="TD_Get Array Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Array Information.vi"/>
 				<Item Name="JSON GetSet.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/JSON API/Get Polymorphic/JSON GetSet.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Etalon Cal.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer Fitting/Fitting Model/Etalon Cal.ctl"/>

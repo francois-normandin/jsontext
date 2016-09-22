@@ -15,6 +15,7 @@
 		<Item Name="Get Object Item by Path (poly).vi" Type="VI" URL="../Get Object Item by Path (poly).vi"/>
 		<Item Name="Get Object Item by Path.vi" Type="VI" URL="../Get Object Item by Path.vi"/>
 		<Item Name="Get Nested Object Item by Name Array.vi" Type="VI" URL="../Get Nested Object Item by Name Array.vi"/>
+		<Item Name="Get Object Items by Path.vi" Type="VI" URL="../Get Object Items by Path.vi"/>
 		<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
@@ -23,6 +24,10 @@
 	<Item Name="API Offset based" Type="Folder">
 		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Find Object Item Offset by Name.vi"/>
 		<Item Name="Find Object Item Offsets by Names.vi" Type="VI" URL="../Find Object Item Offsets by Names.vi"/>
+		<Item Name="Find Object Items by Path.vi" Type="VI" URL="../Find Object Items by Path.vi"/>
+		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing State.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -37,19 +42,21 @@
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
 		<Item Name="Advance past whitespace.vi" Type="VI" URL="../Advance past whitespace.vi"/>
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
+		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="JSON2 oblect item lookup test.vi" Type="VI" URL="../JSON2 oblect item lookup test.vi"/>
 		<Item Name="JSON2 speed.vi" Type="VI" URL="../JSON2 speed.vi"/>
 		<Item Name="Variant Tools Test.vi" Type="VI" URL="../Variant Tools Test.vi"/>
 	</Item>
+	<Item Name="Get all Object Item Offsets.vi" Type="VI" URL="../Get all Object Item Offsets.vi"/>
+	<Item Name="Get Array Element Offsets.vi" Type="VI" URL="../Get Array Element Offsets.vi"/>
 	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
 	<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
 	<Item Name="Get Number Text (inlined).vi" Type="VI" URL="../Get Number Text (inlined).vi"/>
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
 	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
-	<Item Name="JSON Value Search.ctl" Type="VI" URL="../JSON Value Search.ctl"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 	<Item Name="Variant Array to JSON Array text.vi" Type="VI" URL="../Variant Array to JSON Array text.vi"/>
 	<Item Name="Variant Array to JSON Object text.vi" Type="VI" URL="../Variant Array to JSON Object text.vi"/>
