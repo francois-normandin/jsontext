@@ -16,13 +16,15 @@
 		<Item Name="JSONtext" Type="Folder">
 			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Test Unnamed Clusters to JSON Arrays.vi"/>
 			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Utility ASCII values.vi"/>
-			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Test all Data Types in Variant.vi"/>
+		</Item>
+		<Item Name="Exclude from VIPM" Type="Folder" URL="../Exclude from VIPM">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Tests" Type="Folder" URL="../Tests">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext support.lvlib" Type="Library" URL="../support/JSONtext support.lvlib"/>
-		<Item Name="Read Ratiometer file.vi" Type="VI" URL="../Read Ratiometer file.vi"/>
-		<Item Name="Untitled 16.vi" Type="VI" URL="../Untitled 16.vi"/>
-		<Item Name="Read Ratiometer file Full Data.vi" Type="VI" URL="../Read Ratiometer file Full Data.vi"/>
 		<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

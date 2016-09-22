@@ -44,11 +44,6 @@
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
-	<Item Name="Tests" Type="Folder">
-		<Item Name="JSON2 oblect item lookup test.vi" Type="VI" URL="../JSON2 oblect item lookup test.vi"/>
-		<Item Name="JSON2 speed.vi" Type="VI" URL="../JSON2 speed.vi"/>
-		<Item Name="Variant Tools Test.vi" Type="VI" URL="../Variant Tools Test.vi"/>
-	</Item>
 	<Item Name="Get all Object Item Offsets.vi" Type="VI" URL="../Get all Object Item Offsets.vi"/>
 	<Item Name="Get Array Element Offsets.vi" Type="VI" URL="../Get Array Element Offsets.vi"/>
 	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
