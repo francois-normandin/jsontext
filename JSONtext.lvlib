@@ -13,8 +13,8 @@
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Get Object Item by Path (poly).vi" Type="VI" URL="../Get Object Item by Path (poly).vi"/>
-		<Item Name="Get Object Item by Path.vi" Type="VI" URL="../Get Object Item by Path.vi"/>
-		<Item Name="Get Nested Object Item by Name Array.vi" Type="VI" URL="../Get Nested Object Item by Name Array.vi"/>
+		<Item Name="DEPRACATED Get Object Item by Path.vi" Type="VI" URL="../DEPRACATED Get Object Item by Path.vi"/>
+		<Item Name="DEPRACATED Get Nested Object Item by Name Array.vi" Type="VI" URL="../DEPRACATED Get Nested Object Item by Name Array.vi"/>
 		<Item Name="Get Object Items by Path.vi" Type="VI" URL="../Get Object Items by Path.vi"/>
 		<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
@@ -55,6 +55,7 @@
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
 	<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
 	<Item Name="Get Number Text (inlined).vi" Type="VI" URL="../Get Number Text (inlined).vi"/>
+	<Item Name="Get Object Item (single) by Path.vi" Type="VI" URL="../Get Object Item (single) by Path.vi"/>
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
 	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
