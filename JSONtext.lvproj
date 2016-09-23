@@ -13,10 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="JSONtext" Type="Folder">
-			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Test Unnamed Clusters to JSON Arrays.vi"/>
-			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Utility ASCII values.vi"/>
-		</Item>
+		<Item Name="JSONtext" Type="Folder"/>
 		<Item Name="Exclude from VIPM" Type="Folder" URL="../Exclude from VIPM">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -25,7 +22,7 @@
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext support.lvlib" Type="Library" URL="../support/JSONtext support.lvlib"/>
-		<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
