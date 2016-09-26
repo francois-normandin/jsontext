@@ -23,6 +23,7 @@
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext support.lvlib" Type="Library" URL="../support/JSONtext support.lvlib"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+		<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
@@ -124,6 +125,7 @@
 			<Item Name="Readings.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Slow DAQ Folder/Readings.ctl"/>
 			<Item Name="LaserData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/LaserData.ctl"/>
 			<Item Name="IsotopeData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/IsotopeData.ctl"/>
+			<Item Name="Advance past comma.vi" Type="VI" URL="../Advance past comma.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

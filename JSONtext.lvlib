@@ -17,7 +17,9 @@
 		<Item Name="Get Object Items by Path.vi" Type="VI" URL="../Get Object Items by Path.vi"/>
 		<Item Name="DEPRACATED Get Object Item by Path.vi" Type="VI" URL="../DEPRACATED Get Object Item by Path.vi"/>
 		<Item Name="DEPRACATED Get Nested Object Item by Name Array.vi" Type="VI" URL="../DEPRACATED Get Nested Object Item by Name Array.vi"/>
+		<Item Name="Insert Item(s) (poly).vi" Type="VI" URL="../Insert Item(s) (poly).vi"/>
 		<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
+		<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
@@ -36,15 +38,16 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
-		<Item Name="Advance past comma.vi" Type="VI" URL="../Advance past comma.vi"/>
 		<Item Name="Advance past next JSON Scaler.vi" Type="VI" URL="../Advance past next JSON Scaler.vi"/>
 		<Item Name="Advance past next JSON Value (inlined COPY).vi" Type="VI" URL="../Advance past next JSON Value (inlined COPY).vi"/>
 		<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
 		<Item Name="Advance past Number.vi" Type="VI" URL="../Advance past Number.vi"/>
 		<Item Name="Advance past Object.vi" Type="VI" URL="../Advance past Object.vi"/>
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
+		<Item Name="Advance past whitespace and comma.vi" Type="VI" URL="../Advance past whitespace and comma.vi"/>
 		<Item Name="Advance past whitespace.vi" Type="VI" URL="../Advance past whitespace.vi"/>
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
+		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
 	<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
