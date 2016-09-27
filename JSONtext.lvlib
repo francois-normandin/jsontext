@@ -34,7 +34,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
-	<Item Name="Private" Type="Folder">
+	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
@@ -50,6 +50,9 @@
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
+	<Item Name="Advance past Item Name.vi" Type="VI" URL="../Advance past Item Name.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
 	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
@@ -58,6 +61,7 @@
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
 	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
+	<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
 	<Item Name="Variant Array to JSON Array text.vi" Type="VI" URL="../Variant Array to JSON Array text.vi"/>
 	<Item Name="Variant Array to JSON Object text.vi" Type="VI" URL="../Variant Array to JSON Object text.vi"/>
 </Library>

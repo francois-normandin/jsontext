@@ -125,7 +125,6 @@
 			<Item Name="Readings.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Slow DAQ Folder/Readings.ctl"/>
 			<Item Name="LaserData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/LaserData.ctl"/>
 			<Item Name="IsotopeData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/IsotopeData.ctl"/>
-			<Item Name="Advance past comma.vi" Type="VI" URL="../Advance past comma.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
