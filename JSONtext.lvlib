@@ -22,7 +22,7 @@
 		<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
-		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
+		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
 		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Find Object Item Offset by Name.vi"/>
@@ -40,7 +40,6 @@
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
 		<Item Name="Advance past next JSON Scaler.vi" Type="VI" URL="../Advance past next JSON Scaler.vi"/>
 		<Item Name="Advance past next JSON Value (inlined COPY).vi" Type="VI" URL="../Advance past next JSON Value (inlined COPY).vi"/>
-		<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
 		<Item Name="Advance past Number.vi" Type="VI" URL="../Advance past Number.vi"/>
 		<Item Name="Advance past Object.vi" Type="VI" URL="../Advance past Object.vi"/>
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
@@ -53,13 +52,18 @@
 	<Item Name="Advance past Item Name.vi" Type="VI" URL="../Advance past Item Name.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
 	<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
 	<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 	<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
 	<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
+	<Item Name="Get I64.vi" Type="VI" URL="../Get I64.vi"/>
 	<Item Name="Get Number Text (inlined).vi" Type="VI" URL="../Get Number Text (inlined).vi"/>
 	<Item Name="Get String (inlined).vi" Type="VI" URL="../Get String (inlined).vi"/>
 	<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
+	<Item Name="Get U64.vi" Type="VI" URL="../Get U64.vi"/>
+	<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
+	<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 	<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
 	<Item Name="Variant Array to JSON Array text.vi" Type="VI" URL="../Variant Array to JSON Array text.vi"/>
