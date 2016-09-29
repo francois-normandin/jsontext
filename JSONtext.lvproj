@@ -13,19 +13,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="JSONtext" Type="Folder"/>
 		<Item Name="Exclude from VIPM" Type="Folder" URL="../Exclude from VIPM">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Tests" Type="Folder" URL="../Tests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
+		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext support.lvlib" Type="Library" URL="../support/JSONtext support.lvlib"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>
-		<Item Name="Untitled 7.vi" Type="VI" URL="../Untitled 7.vi"/>
-		<Item Name="Untitled 8.vi" Type="VI" URL="../Untitled 8.vi"/>
+		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
