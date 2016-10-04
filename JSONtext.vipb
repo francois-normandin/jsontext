@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-22 17:00:49" Modified_Date="2016-09-29 11:18:55" Creator="James.Powell" Comments="" ID="5ccb813000c96b39710cd7f698c1c24b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-22 17:00:49" Modified_Date="2016-10-04 17:27:16" Creator="James.Powell" Comments="" ID="356f3e62c6814f1c48697f56b782d276">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.1.0.5</Library_Version>
+    <Library_Version>0.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -38,30 +38,30 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\JDP Science\JSONtext</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\JDP Science\JSONtext</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\_probes\JDP Science\JSONtext</Path>
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\errors\JDP Science\JSONtext</Path>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\JDP Science\JSONtext</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\templates\JDP Science\JSONtext</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -329,7 +329,7 @@
         <Path>String Subset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83DB5BA64FBDA9418A5E8EAC519DD364</GUID>
+      <GUID>34BB58E6B98A06C15BCFF838BD71D75E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
