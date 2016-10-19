@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -106,7 +106,6 @@
 				<Item Name="SendMSG.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Core Messages/MSG Library/SendMSG.lvlib"/>
 				<Item Name="Variant Name_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Variant Name_Messenging.vi"/>
 				<Item Name="Array of Variants to Cluster_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Array of Variants to Cluster_Messenging.vi"/>
-				<Item Name="Cluster to Array of Variants_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Cluster to Array of Variants_Messenging.vi"/>
 				<Item Name="JSON Scalar.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Scalar/JSON Scalar.lvclass"/>
 				<Item Name="JSON Value.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Value/JSON Value.lvclass"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -135,6 +134,7 @@
 			<Item Name="Readings.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Slow DAQ Folder/Readings.ctl"/>
 			<Item Name="LaserData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/LaserData.ctl"/>
 			<Item Name="IsotopeData.ctl" Type="VI" URL="../../Users/james.powell/RAL Isotope Ratiometer/Ratiometer/Support/IsotopeData.ctl"/>
+			<Item Name="DEPRACATED Get Object Item by Path.vi" Type="VI" URL="../DEPRACATED Get Object Item by Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
