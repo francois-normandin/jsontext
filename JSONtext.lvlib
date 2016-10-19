@@ -26,6 +26,7 @@
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Get Object Item by Path (poly).vi" Type="VI" URL="../Get Object Item by Path (poly).vi"/>
 		<Item Name="Get Object Item (single) by Path.vi" Type="VI" URL="../Get Object Item (single) by Path.vi"/>
+		<Item Name="Get Object Items by Item Names.vi" Type="VI" URL="../Get Object Items by Item Names.vi"/>
 		<Item Name="Get Object Items by Path.vi" Type="VI" URL="../Get Object Items by Path.vi"/>
 		<Item Name="DEPRACATED Get Object Item by Path.vi" Type="VI" URL="../DEPRACATED Get Object Item by Path.vi"/>
 		<Item Name="DEPRACATED Get Nested Object Item by Name Array.vi" Type="VI" URL="../DEPRACATED Get Nested Object Item by Name Array.vi"/>
