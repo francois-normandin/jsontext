@@ -47,6 +47,9 @@
 		<Item Name="Find Item Locations by Path.vi" Type="VI" URL="../Find Item Locations by Path.vi"/>
 		<Item Name="Find Object Item Locations by Names.vi" Type="VI" URL="../Find Object Item Locations by Names.vi"/>
 		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Find Object Item Offset by Name.vi"/>
+		<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get all Object Item Offsets.vi" Type="VI" URL="../Get all Object Item Offsets.vi"/>
 		<Item Name="Get Array Element Offsets.vi" Type="VI" URL="../Get Array Element Offsets.vi"/>
 		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing State.ctl">
@@ -57,8 +60,10 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
+		<Item Name="Advance past Item Name.vi" Type="VI" URL="../Advance past Item Name.vi"/>
 		<Item Name="Advance past next JSON Scaler.vi" Type="VI" URL="../Advance past next JSON Scaler.vi"/>
 		<Item Name="Advance past next JSON Value (inlined COPY).vi" Type="VI" URL="../Advance past next JSON Value (inlined COPY).vi"/>
+		<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
 		<Item Name="Advance past Number.vi" Type="VI" URL="../Advance past Number.vi"/>
 		<Item Name="Advance past Object.vi" Type="VI" URL="../Advance past Object.vi"/>
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
@@ -68,11 +73,6 @@
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
-	<Item Name="Advance past Item Name.vi" Type="VI" URL="../Advance past Item Name.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Advance past next JSON Value.vi" Type="VI" URL="../Advance past next JSON Value.vi"/>
-	<Item Name="Found Items.ctl" Type="VI" URL="../Found Items.ctl"/>
 	<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 </Library>
