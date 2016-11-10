@@ -39,8 +39,8 @@
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
-		<Item Name="Variant Array to JSON Array text.vi" Type="VI" URL="../Variant Array to JSON Array text.vi"/>
-		<Item Name="Variant Array to JSON Object text.vi" Type="VI" URL="../Variant Array to JSON Object text.vi"/>
+		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
+		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
@@ -73,6 +73,7 @@
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
+	<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
 	<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 </Library>
