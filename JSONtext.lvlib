@@ -76,4 +76,7 @@
 	<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
 	<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
+	<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
