@@ -19,6 +19,7 @@
 			<Item Name="Get I64.vi" Type="VI" URL="../Get I64.vi"/>
 			<Item Name="Get String.vi" Type="VI" URL="../Get String.vi"/>
 			<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
+			<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
 			<Item Name="Get U64.vi" Type="VI" URL="../Get U64.vi"/>
 		</Item>
 		<Item Name="Find by Path instances" Type="Folder">
@@ -55,6 +56,7 @@
 		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing State.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
 	</Item>
 	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -73,10 +75,22 @@
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 	</Item>
-	<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
-	<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
-	<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
-	<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi">
+	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
+		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>
+		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
+		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
+		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
+		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
+		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
+		<Item Name="Remove JSON Tag.vi" Type="VI" URL="../support/Remove JSON Tag.vi"/>
+		<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
+		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
+		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
+		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
+		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
+		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
+		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
 </Library>
