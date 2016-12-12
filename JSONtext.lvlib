@@ -42,6 +42,7 @@
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
+		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Find (Create) Object.vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
@@ -80,6 +81,7 @@
 		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
 		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
+		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
 		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
 		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
