@@ -57,6 +57,7 @@
 		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing State.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
 		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
 	</Item>
 	<Item Name="Parsing" Type="Folder">
@@ -75,6 +76,7 @@
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
+		<Item Name="Replace at Offset.vi" Type="VI" URL="../Replace at Offset.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -95,4 +97,5 @@
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
+	<Item Name="Replace Items at Offset.vi" Type="VI" URL="../Replace Items at Offset.vi"/>
 </Library>
