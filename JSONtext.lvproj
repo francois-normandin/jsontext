@@ -22,6 +22,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="JSONtext Clusters to Objects or Arrays.vi" Type="VI" URL="../Examples/JSONtext Clusters to Objects or Arrays.vi"/>
 			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
+			<Item Name="Merge Objects.vi" Type="VI" URL="../Examples/Merge Objects.vi"/>
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>
