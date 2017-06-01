@@ -30,8 +30,8 @@
 			<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
-			<Item Name="Merge Section into Object.vi" Type="VI" URL="../Merge Section into Object.vi"/>
-			<Item Name="Set Cluster from Object Item.vi" Type="VI" URL="../Set Cluster from Object Item.vi"/>
+			<Item Name="Read Section Cluster.vi" Type="VI" URL="../Read Section Cluster.vi"/>
+			<Item Name="Write Section Cluster.vi" Type="VI" URL="../Write Section Cluster.vi"/>
 		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
@@ -78,6 +78,7 @@
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
 		<Item Name="Advance past whitespace and comma.vi" Type="VI" URL="../Advance past whitespace and comma.vi"/>
 		<Item Name="Advance past whitespace.vi" Type="VI" URL="../Advance past whitespace.vi"/>
+		<Item Name="Parsing Error (inlined).vi" Type="VI" URL="../Parsing Error (inlined).vi"/>
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>

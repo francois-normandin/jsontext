@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-05-31 16:19:52" Creator="James.Powell" Comments="" ID="be73220433dd252d0bfc78d89113a1e7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-01 16:18:34" Creator="James.Powell" Comments="" ID="f62f91739f98fe30486c6c0de73211e7">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.5.0.11</Library_Version>
+    <Library_Version>0.5.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -362,7 +362,7 @@
         <Path>Merge into Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E593EE2E91E8531C75DB7AF4C6B4C57</GUID>
+      <GUID>CAA1E1FCA8F0568879CB3F6233015E62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -425,7 +425,7 @@
         <Path>Array of Variants to JSON Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39B3FBA48EEE93386ACE5A6904EFB090</GUID>
+      <GUID>ECE50B09F8440B4396742867E19F09F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -449,7 +449,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Merge Cluster into Object Item.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Write Section Cluster.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -457,13 +457,13 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Merge Cluster into Object Item.vi</Path>
+        <Path>Write Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Cluster from Object Item.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Write Section Cluster.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -471,10 +471,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Set Cluster from Object Item.vi</Path>
+        <Path>Write Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D60FB88B088E8A9B056951C182E1D101</GUID>
+      <GUID>C2479D9F881DB1C39B2F02F66AB415B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
