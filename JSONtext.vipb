@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-05 13:17:46" Creator="James.Powell" Comments="" ID="29df5bf682841244ab9151a8ee0032b9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-05 16:07:01" Creator="James.Powell" Comments="" ID="51117754c176bb4953493905e2887c78">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.5.3.14</Library_Version>
+    <Library_Version>0.5.3.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -104,6 +104,18 @@
       <Destination_Overrides>
         <Path>Examples</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Probes</Path>
+        <Destination>2</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Probes/JSONtext Pretty Print.vi</Path>
+        <Destination>2</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -362,7 +374,7 @@
         <Path>Merge into Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0502F15FD1798D2A1B08C08168A4FFB5</GUID>
+      <GUID>62DDAFA309F357F9D3364DF660B761A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -425,7 +437,7 @@
         <Path>Array of Variants to JSON Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4290FC7A3775393F388B1AD200304DC6</GUID>
+      <GUID>33F07EBE17FE0B2166A963560A5B8E8B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +514,7 @@
         <Path>Read Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68693826C26B779F8D3CC1D1271D5566</GUID>
+      <GUID>F5F3782275096C044BE4F7603D5B6890</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

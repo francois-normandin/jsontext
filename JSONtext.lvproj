@@ -22,8 +22,10 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Probes" Type="Folder" URL="../Probes">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
-		<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -88,6 +90,7 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
