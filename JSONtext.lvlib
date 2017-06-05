@@ -30,7 +30,9 @@
 			<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
+			<Item Name="Read Multiple Sections.vi" Type="VI" URL="../Read Multiple Sections.vi"/>
 			<Item Name="Read Section Cluster.vi" Type="VI" URL="../Read Section Cluster.vi"/>
+			<Item Name="Write Multiple Sections.vi" Type="VI" URL="../Write Multiple Sections.vi"/>
 			<Item Name="Write Section Cluster.vi" Type="VI" URL="../Write Section Cluster.vi"/>
 		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
@@ -105,5 +107,6 @@
 	</Item>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
+	<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
