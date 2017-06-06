@@ -46,6 +46,8 @@
 		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
+		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
+		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
 		<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
