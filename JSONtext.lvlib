@@ -46,6 +46,7 @@
 		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
+		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
 		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
 		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
@@ -95,6 +96,7 @@
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
 		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
 		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
+		<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
 		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
 		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
@@ -104,12 +106,11 @@
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
 		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
+		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
-	<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
-	<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
