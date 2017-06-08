@@ -109,6 +109,7 @@
 	</Item>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
+	<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
 	<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
