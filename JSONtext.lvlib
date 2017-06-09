@@ -110,7 +110,9 @@
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
+	<Item Name="Format Error.vi" Type="VI" URL="../Format Error.vi"/>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
+	<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
