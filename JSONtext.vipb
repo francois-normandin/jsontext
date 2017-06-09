@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-09 10:19:56" Creator="James.Powell" Comments="" ID="5a72b5b5402bd49db54116155b266f4a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-09 11:05:19" Creator="James.Powell" Comments="" ID="3441e5b08fe68da226b5b06b068c9f44">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.5.6.18</Library_Version>
+    <Library_Version>0.5.6.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -418,7 +418,7 @@ JSON Type VI</Release_Notes>
         <Path>JSON type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>944C2F921640F2DBE74D4CEBC3D979B9</GUID>
+      <GUID>AA96850B3758ED2372FDE6BD2D91B826</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -481,7 +481,7 @@ JSON Type VI</Release_Notes>
         <Path>Array of Variants to JSON Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1333B711A224E58E47519FA104D99977</GUID>
+      <GUID>BB1692A3563E5E1E47BF0F89DC3E3302</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -558,7 +558,7 @@ JSON Type VI</Release_Notes>
         <Path>Read Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C1A1A371A279E2F84A6986F6D1234E6</GUID>
+      <GUID>6637BBC424C7CF3732319A70057A3C97</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
