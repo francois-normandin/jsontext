@@ -114,5 +114,6 @@
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
 	<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
+	<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
