@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-13 13:04:25" Creator="James.Powell" Comments="" ID="182087b81258dd3a0837336ef495027b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-13 13:49:44" Creator="James.Powell" Comments="" ID="00873fe06d21dc1ca38fdf16f95cfa81">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.5.7.20</Library_Version>
+    <Library_Version>0.5.7.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -433,7 +433,7 @@ Delete from Object</Release_Notes>
         <Path>Section Clusters</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0620E6DAD1956AB73B42706D46243D51</GUID>
+      <GUID>68574DD0CC614D00F805E290CAE5A4E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -496,7 +496,7 @@ Delete from Object</Release_Notes>
         <Path>Array of Variants to JSON Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42F28B03A9BD7A1362381EB36FAA785F</GUID>
+      <GUID>3F3210D510E43FCECF338FFEF02DD580</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -573,7 +573,7 @@ Delete from Object</Release_Notes>
         <Path>Read Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE6D5DFF68B257A1DBFC27DA9CF22572</GUID>
+      <GUID>0C1609A41AAEAA97BECD23A3FDF47BE2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
