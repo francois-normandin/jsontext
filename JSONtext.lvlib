@@ -106,6 +106,7 @@
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
 		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
+		<Item Name="Trim Input JSON (and make Object).vi" Type="VI" URL="../support/Trim Input JSON (and make Object).vi"/>
 		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
