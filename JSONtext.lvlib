@@ -38,7 +38,6 @@
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
-		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Find (Create) Object.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
@@ -94,6 +93,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
 		<Item Name="Empty string is an Object.vi" Type="VI" URL="../support/Empty string is an Object.vi"/>
+		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Find (Create) Object.vi"/>
 		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
 		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
@@ -107,6 +107,7 @@
 		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
+		<Item Name="Test Trim Whitspace.vi" Type="VI" URL="../Tests/Test Trim Whitspace.vi"/>
 		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
 		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
