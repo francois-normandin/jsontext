@@ -38,6 +38,7 @@
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
+		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
@@ -69,6 +70,7 @@
 		<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
 		<Item Name="Replace Items at Offset.vi" Type="VI" URL="../Replace Items at Offset.vi"/>
 		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
+		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
 	</Item>
 	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
