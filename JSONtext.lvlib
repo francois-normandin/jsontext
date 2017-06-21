@@ -51,6 +51,7 @@
 		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
 		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
+		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 		<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
@@ -90,12 +91,14 @@
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 		<Item Name="Replace at Offset.vi" Type="VI" URL="../Replace at Offset.vi"/>
+		<Item Name="Reverse backwards past comma.vi" Type="VI" URL="../Reverse backwards past comma.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
 		<Item Name="Empty string is an Object.vi" Type="VI" URL="../support/Empty string is an Object.vi"/>
 		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Find (Create) Object.vi"/>
+		<Item Name="Format Error.vi" Type="VI" URL="../Format Error.vi"/>
 		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
 		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
@@ -115,13 +118,9 @@
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
-	<Item Name="Format Error.vi" Type="VI" URL="../Format Error.vi"/>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
+	<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
 	<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
-	<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
-	<Item Name="Reverse backwards past comma.vi" Type="VI" URL="../Reverse backwards past comma.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
