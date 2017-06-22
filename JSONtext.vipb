@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-22 17:21:24" Creator="James.Powell" Comments="" ID="be21b7a58c86befb17a282d894d9d99e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-06-22 22:12:05" Creator="James.Powell" Comments="" ID="45f39b76056248fb0d194dcc4ea7457e">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.5.9.27</Library_Version>
+    <Library_Version>0.5.9.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -450,7 +450,7 @@ Difference of two objects
         <Path>Next JSON Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE4DC418A994F5DAF1BCB6ADC581518E</GUID>
+      <GUID>97A6CA835DFC07640A943A5C4C280B3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -541,7 +541,7 @@ Difference of two objects
         <Path>Display Text\Display Text from JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35D089C85A680DF46FE24E8EF9C468B7</GUID>
+      <GUID>4CD4EC657A955FC0C868A836A6F8EEF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -618,7 +618,7 @@ Difference of two objects
         <Path>Read Section Cluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>010BCBD55BF5C2ED0A9DC5C67A96A0BB</GUID>
+      <GUID>7C8FE608BD5C2CAA8E1DF65800B337F2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

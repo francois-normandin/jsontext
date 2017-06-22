@@ -13,17 +13,42 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Exclude from VIPM" Type="Folder" URL="../Exclude from VIPM">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Exclude from VIPM" Type="Folder">
+			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Exclude from VIPM/Utility ASCII values.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder" URL="../Tests">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="strings tests" Type="Folder">
+				<Item Name="array of strings json test.vi" Type="VI" URL="../Tests/strings tests/array of strings json test.vi"/>
+				<Item Name="escape string performance.vi" Type="VI" URL="../Tests/strings tests/escape string performance.vi"/>
+				<Item Name="Nd array string check.vi" Type="VI" URL="../Tests/strings tests/Nd array string check.vi"/>
+				<Item Name="test string esc unesc.vi" Type="VI" URL="../Tests/strings tests/test string esc unesc.vi"/>
+				<Item Name="unescape json string 2.vi" Type="VI" URL="../Tests/strings tests/unescape json string 2.vi"/>
+				<Item Name="unescape string perf.vi" Type="VI" URL="../Tests/strings tests/unescape string perf.vi"/>
+			</Item>
+			<Item Name="Blockchain example.vi" Type="VI" URL="../Tests/Blockchain example.vi"/>
+			<Item Name="Blockchain test.vi" Type="VI" URL="../Tests/Blockchain test.vi"/>
+			<Item Name="Canada JSON.vi" Type="VI" URL="../Tests/Canada JSON.vi"/>
+			<Item Name="Delete Insert Test.vi" Type="VI" URL="../Tests/Delete Insert Test.vi"/>
+			<Item Name="JSON2 oblect item lookup test.vi" Type="VI" URL="../Tests/JSON2 oblect item lookup test.vi"/>
+			<Item Name="JSON2 speed.vi" Type="VI" URL="../Tests/JSON2 speed.vi"/>
+			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
+			<Item Name="Test Case Error or No Error.vi" Type="VI" URL="../Tests/Test Case Error or No Error.vi"/>
+			<Item Name="Test Case No Error.vi" Type="VI" URL="../Tests/Test Case No Error.vi"/>
+			<Item Name="Test Colour items of a string control.vi" Type="VI" URL="../Tests/Test Colour items of a string control.vi"/>
+			<Item Name="Test Difference.vi" Type="VI" URL="../Tests/Test Difference.vi"/>
+			<Item Name="Test Section Cluster Tools.vi" Type="VI" URL="../Tests/Test Section Cluster Tools.vi"/>
+			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Tests/Test Unnamed Clusters to JSON Arrays.vi"/>
+			<Item Name="Variant Tools Test Arrays.vi" Type="VI" URL="../Tests/Variant Tools Test Arrays.vi"/>
+			<Item Name="Variant Tools Test.vi" Type="VI" URL="../Tests/Variant Tools Test.vi"/>
 		</Item>
-		<Item Name="Examples" Type="Folder" URL="../Examples">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
+			<Item Name="JSONtext Clusters to Objects or Arrays.vi" Type="VI" URL="../Examples/JSONtext Clusters to Objects or Arrays.vi"/>
+			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
+			<Item Name="Merge Objects.vi" Type="VI" URL="../Examples/Merge Objects.vi"/>
 		</Item>
-		<Item Name="Probes" Type="Folder" URL="../Probes">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Probes" Type="Folder">
+			<Item Name="JSONtext Pretty Print.vi" Type="VI" URL="../Probes/JSONtext Pretty Print.vi"/>
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>

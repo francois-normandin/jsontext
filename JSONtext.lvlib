@@ -37,6 +37,7 @@
 		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
+		<Item Name="Colour Items of a JSON string control.vi" Type="VI" URL="../Colour Items of a JSON string control.vi"/>
 		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
@@ -126,6 +127,12 @@
 		<Item Name="JSON Object to Display Text.vi" Type="VI" URL="../Display Text/JSON Object to Display Text.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+	</Item>
+	<Item Name="Advance to next scaler type.vi" Type="VI" URL="../Advance to next scaler type.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Get all positions.vi" Type="VI" URL="../Get all positions.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
