@@ -118,6 +118,15 @@
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
 	</Item>
+	<Item Name="YAML-like Text" Type="Folder">
+		<Item Name="Display Text from JSON.vi" Type="VI" URL="../Display Text/Display Text from JSON.vi"/>
+		<Item Name="JSON Array to Display Text.vi" Type="VI" URL="../Display Text/JSON Array to Display Text.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="JSON Object to Display Text.vi" Type="VI" URL="../Display Text/JSON Object to Display Text.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+	</Item>
 	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
 	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
 	<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
