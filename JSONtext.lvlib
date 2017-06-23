@@ -13,6 +13,10 @@
 			<Item Name="Find Object Item (single) by Path.vi" Type="VI" URL="../Find Object Item (single) by Path.vi"/>
 			<Item Name="Find Object Items by Path.vi" Type="VI" URL="../Find Object Items by Path.vi"/>
 		</Item>
+		<Item Name="From JSON Text (instances)" Type="Folder">
+			<Item Name="From JSON Text (DBL).vi" Type="VI" URL="../From JSON Text (DBL).vi"/>
+			<Item Name="From JSON Text (Variant).vi" Type="VI" URL="../From JSON Text (Variant).vi"/>
+		</Item>
 		<Item Name="Get" Type="Folder">
 			<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
 			<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
@@ -35,6 +39,9 @@
 			<Item Name="Write Multiple Sections.vi" Type="VI" URL="../Write Multiple Sections.vi"/>
 			<Item Name="Write Section Cluster.vi" Type="VI" URL="../Write Section Cluster.vi"/>
 		</Item>
+		<Item Name="To JSON Text (instances)" Type="Folder">
+			<Item Name="To JSON Text (Variant).vi" Type="VI" URL="../To JSON Text (Variant).vi"/>
+		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Colour Items of a JSON string control.vi" Type="VI" URL="../Colour Items of a JSON string control.vi"/>
@@ -42,6 +49,7 @@
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
+		<Item Name="From JSON Text.vi" Type="VI" URL="../From JSON Text.vi"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
@@ -55,6 +63,7 @@
 		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 		<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
+		<Item Name="To JSON Text.vi" Type="VI" URL="../To JSON Text.vi"/>
 		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
@@ -70,6 +79,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
+		<Item Name="Replace Item(s) at Offset.vi" Type="VI" URL="../Replace Item(s) at Offset.vi"/>
 		<Item Name="Replace Items at Offset.vi" Type="VI" URL="../Replace Items at Offset.vi"/>
 		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
 		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
@@ -131,12 +141,19 @@
 	<Item Name="Advance to next scaler type.vi" Type="VI" URL="../Advance to next scaler type.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
+	<Item Name="From JSON Text (I32).vi" Type="VI" URL="../From JSON Text (I32).vi"/>
+	<Item Name="From JSON Text (I64).vi" Type="VI" URL="../From JSON Text (I64).vi"/>
+	<Item Name="From JSON Text (LVObject).vi" Type="VI" URL="../From JSON Text (LVObject).vi"/>
+	<Item Name="From JSON Text (SGL).vi" Type="VI" URL="../From JSON Text (SGL).vi"/>
+	<Item Name="From JSON Text (string).vi" Type="VI" URL="../From JSON Text (string).vi"/>
+	<Item Name="From JSON Text (timestamp).vi" Type="VI" URL="../From JSON Text (timestamp).vi"/>
+	<Item Name="From JSON Text (U32).vi" Type="VI" URL="../From JSON Text (U32).vi"/>
+	<Item Name="From JSON Text (U64).vi" Type="VI" URL="../From JSON Text (U64).vi"/>
 	<Item Name="Get all positions.vi" Type="VI" URL="../Get all positions.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Get DBL EXPERIMENT.vi" Type="VI" URL="../Get DBL EXPERIMENT.vi"/>
-	<Item Name="JSON text to Variant EXPERIMENT.vi" Type="VI" URL="../JSON text to Variant EXPERIMENT.vi"/>
+	<Item Name="Get SGL.vi" Type="VI" URL="../Get SGL.vi"/>
 	<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
 	<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
-	<Item Name="Variant to JSON Text EXPERIMENT.vi" Type="VI" URL="../Variant to JSON Text EXPERIMENT.vi"/>
 </Library>
