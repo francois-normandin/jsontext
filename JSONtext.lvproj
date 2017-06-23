@@ -34,10 +34,10 @@
 			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
 			<Item Name="Test Case Error or No Error.vi" Type="VI" URL="../Tests/Test Case Error or No Error.vi"/>
 			<Item Name="Test Case No Error.vi" Type="VI" URL="../Tests/Test Case No Error.vi"/>
-			<Item Name="Test Colour items of a string control.vi" Type="VI" URL="../Tests/Test Colour items of a string control.vi"/>
-			<Item Name="Test Difference.vi" Type="VI" URL="../Tests/Test Difference.vi"/>
 			<Item Name="Test Section Cluster Tools.vi" Type="VI" URL="../Tests/Test Section Cluster Tools.vi"/>
+			<Item Name="Example JSON Difference.vi" Type="VI" URL="../Examples/Example JSON Difference.vi"/>
 			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Tests/Test Unnamed Clusters to JSON Arrays.vi"/>
+			<Item Name="Example Colour JSON items in a string control.vi" Type="VI" URL="../Examples/Example Colour JSON items in a string control.vi"/>
 			<Item Name="Variant Tools Test Arrays.vi" Type="VI" URL="../Tests/Variant Tools Test Arrays.vi"/>
 			<Item Name="Variant Tools Test.vi" Type="VI" URL="../Tests/Variant Tools Test.vi"/>
 		</Item>

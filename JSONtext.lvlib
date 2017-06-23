@@ -14,7 +14,16 @@
 			<Item Name="Find Object Items by Path.vi" Type="VI" URL="../Find Object Items by Path.vi"/>
 		</Item>
 		<Item Name="From JSON Text (instances)" Type="Folder">
+			<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
 			<Item Name="From JSON Text (DBL).vi" Type="VI" URL="../From JSON Text (DBL).vi"/>
+			<Item Name="From JSON Text (I32).vi" Type="VI" URL="../From JSON Text (I32).vi"/>
+			<Item Name="From JSON Text (I64).vi" Type="VI" URL="../From JSON Text (I64).vi"/>
+			<Item Name="From JSON Text (LVObject).vi" Type="VI" URL="../From JSON Text (LVObject).vi"/>
+			<Item Name="From JSON Text (SGL).vi" Type="VI" URL="../From JSON Text (SGL).vi"/>
+			<Item Name="From JSON Text (string).vi" Type="VI" URL="../From JSON Text (string).vi"/>
+			<Item Name="From JSON Text (timestamp).vi" Type="VI" URL="../From JSON Text (timestamp).vi"/>
+			<Item Name="From JSON Text (U32).vi" Type="VI" URL="../From JSON Text (U32).vi"/>
+			<Item Name="From JSON Text (U64).vi" Type="VI" URL="../From JSON Text (U64).vi"/>
 			<Item Name="From JSON Text (Variant).vi" Type="VI" URL="../From JSON Text (Variant).vi"/>
 		</Item>
 		<Item Name="Get" Type="Folder">
@@ -24,6 +33,7 @@
 			<Item Name="Get I64.vi" Type="VI" URL="../Get I64.vi"/>
 			<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
 			<Item Name="Get Number Text.vi" Type="VI" URL="../Get Number Text.vi"/>
+			<Item Name="Get SGL.vi" Type="VI" URL="../Get SGL.vi"/>
 			<Item Name="Get String.vi" Type="VI" URL="../Get String.vi"/>
 			<Item Name="Get Timestamp.vi" Type="VI" URL="../Get Timestamp.vi"/>
 			<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
@@ -57,6 +67,7 @@
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
+		<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
 		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
 		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
@@ -97,6 +108,7 @@
 		<Item Name="Advance past String.vi" Type="VI" URL="../Advance past String.vi"/>
 		<Item Name="Advance past whitespace and comma.vi" Type="VI" URL="../Advance past whitespace and comma.vi"/>
 		<Item Name="Advance past whitespace.vi" Type="VI" URL="../Advance past whitespace.vi"/>
+		<Item Name="Advance to next scaler type.vi" Type="VI" URL="../Advance to next scaler type.vi"/>
 		<Item Name="Parsing Error (inlined).vi" Type="VI" URL="../Parsing Error (inlined).vi"/>
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
 		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
@@ -112,9 +124,11 @@
 		<Item Name="Format Error.vi" Type="VI" URL="../Format Error.vi"/>
 		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
+		<Item Name="Get all positions.vi" Type="VI" URL="../Get all positions.vi"/>
 		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
 		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
 		<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
+		<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
 		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
 		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
@@ -138,22 +152,4 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
-	<Item Name="Advance to next scaler type.vi" Type="VI" URL="../Advance to next scaler type.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
-	<Item Name="From JSON Text (I32).vi" Type="VI" URL="../From JSON Text (I32).vi"/>
-	<Item Name="From JSON Text (I64).vi" Type="VI" URL="../From JSON Text (I64).vi"/>
-	<Item Name="From JSON Text (LVObject).vi" Type="VI" URL="../From JSON Text (LVObject).vi"/>
-	<Item Name="From JSON Text (SGL).vi" Type="VI" URL="../From JSON Text (SGL).vi"/>
-	<Item Name="From JSON Text (string).vi" Type="VI" URL="../From JSON Text (string).vi"/>
-	<Item Name="From JSON Text (timestamp).vi" Type="VI" URL="../From JSON Text (timestamp).vi"/>
-	<Item Name="From JSON Text (U32).vi" Type="VI" URL="../From JSON Text (U32).vi"/>
-	<Item Name="From JSON Text (U64).vi" Type="VI" URL="../From JSON Text (U64).vi"/>
-	<Item Name="Get all positions.vi" Type="VI" URL="../Get all positions.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Get SGL.vi" Type="VI" URL="../Get SGL.vi"/>
-	<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
-	<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
 </Library>
