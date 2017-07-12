@@ -119,6 +119,7 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
+		<Item Name="Combine Positions by type.vi" Type="VI" URL="../Combine Positions by type.vi"/>
 		<Item Name="Empty string is an Object.vi" Type="VI" URL="../support/Empty string is an Object.vi"/>
 		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Find (Create) Object.vi"/>
 		<Item Name="Format Error.vi" Type="VI" URL="../Format Error.vi"/>
