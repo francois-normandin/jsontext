@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-13 18:34:13" Creator="James.Powell" Comments="" ID="113bc93b4807ce321cfee6bef7085a0a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-13 18:39:36" Creator="James.Powell" Comments="" ID="6381e5013e32a9c55a65a9ccf8eaa393">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.7.2.34</Library_Version>
+    <Library_Version>0.7.2.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -628,7 +628,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Read Section Cluster.vim</Path>
@@ -642,7 +642,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>4</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Read Multiple Sections.vim</Path>
@@ -656,7 +656,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Write Section Cluster.vi</Path>
@@ -670,7 +670,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Write Multiple Sections.vi</Path>
