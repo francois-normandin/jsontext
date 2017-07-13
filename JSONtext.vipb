@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-13 18:39:36" Creator="James.Powell" Comments="" ID="6381e5013e32a9c55a65a9ccf8eaa393">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-13 21:53:18" Creator="James.Powell" Comments="" ID="4d616f6d6c465f3b15bdbf83a71300fc">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.7.2.36</Library_Version>
+    <Library_Version>0.7.2.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -508,7 +508,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06D26E6D13230AF098B7C2E984DCE819</GUID>
+      <GUID>B2C63DE1F778C4E4F5C50E043F37D5C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -599,7 +599,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>Colour Items of a JSON string control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89B258551745105475AC04A161D09F17</GUID>
+      <GUID>57B69F9D2E11BCE159215CA0DD6ED72E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -676,7 +676,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B1ACEFD6334D00A03C0D75A97843A62</GUID>
+      <GUID>513E922A4470AC9612D9E69829803FC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -725,7 +725,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>String Subset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>029B82061400D716889EA8BBA9A0ECFF</GUID>
+      <GUID>F165C403A44D138A3D82675AB68072CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
