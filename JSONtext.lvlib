@@ -44,13 +44,18 @@
 			<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
-			<Item Name="Read Multiple Sections.vi" Type="VI" URL="../Read Multiple Sections.vi"/>
-			<Item Name="Read Section Cluster.vi" Type="VI" URL="../Read Section Cluster.vi"/>
+			<Item Name="Read Multiple Sections.vim" Type="VI" URL="../Read Multiple Sections.vim"/>
+			<Item Name="Read Section Cluster.vim" Type="VI" URL="../Read Section Cluster.vim"/>
 			<Item Name="Write Multiple Sections.vi" Type="VI" URL="../Write Multiple Sections.vi"/>
 			<Item Name="Write Section Cluster.vi" Type="VI" URL="../Write Section Cluster.vi"/>
 		</Item>
 		<Item Name="To JSON Text (instances)" Type="Folder">
 			<Item Name="To JSON Text (Variant).vi" Type="VI" URL="../To JSON Text (Variant).vi"/>
+		</Item>
+		<Item Name="VIMs for 2017+" Type="Folder">
+			<Item Name="Find Object Item (as LVtype) by Path.vim" Type="VI" URL="../Find Object Item (as LVtype) by Path.vim"/>
+			<Item Name="Find Object Items (as LVtype) by Path.vim" Type="VI" URL="../Find Object Items (as LVtype) by Path.vim"/>
+			<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
 		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
@@ -64,6 +69,7 @@
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
 		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
+		<Item Name="Insert LVtype into Object.vi" Type="VI" URL="../Insert LVtype into Object.vi"/>
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
