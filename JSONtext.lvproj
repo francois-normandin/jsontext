@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -40,6 +40,7 @@
 			<Item Name="Example Colour JSON items in a string control.vi" Type="VI" URL="../Examples/Example Colour JSON items in a string control.vi"/>
 			<Item Name="Variant Tools Test Arrays.vi" Type="VI" URL="../Tests/Variant Tools Test Arrays.vi"/>
 			<Item Name="Variant Tools Test.vi" Type="VI" URL="../Tests/Variant Tools Test.vi"/>
+			<Item Name="Var Tools Speed.vi" Type="VI" URL="../Tests/Var Tools Speed.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
@@ -52,7 +53,6 @@
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
-		<Item Name="Var Tools Speed.vi" Type="VI" URL="../Tests/Var Tools Speed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
