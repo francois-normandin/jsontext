@@ -101,6 +101,11 @@
 	</Item>
 	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Path Notation" Type="Folder">
+			<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
+			<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
+			<Item Name="Path or Name.vi" Type="VI" URL="../Path or Name.vi"/>
+		</Item>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>
 		<Item Name="Advance past Item Name.vi" Type="VI" URL="../Advance past Item Name.vi"/>
@@ -115,8 +120,6 @@
 		<Item Name="Advance to next scaler type.vi" Type="VI" URL="../Advance to next scaler type.vi"/>
 		<Item Name="Parsing Error (inlined).vi" Type="VI" URL="../Parsing Error (inlined).vi"/>
 		<Item Name="Parsing Error.vi" Type="VI" URL="../Parsing Error.vi"/>
-		<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
-		<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 		<Item Name="Replace at Offset.vi" Type="VI" URL="../Replace at Offset.vi"/>
 		<Item Name="Reverse backwards past comma.vi" Type="VI" URL="../Reverse backwards past comma.vi"/>
 	</Item>
@@ -134,7 +137,6 @@
 		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
 		<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Line Size (pretty print).vi"/>
 		<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../NaN or null to Integer ERROR.vi"/>
-		<Item Name="Path Notation to Array.vi" Type="VI" URL="../Path Notation to Array.vi"/>
 		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
 		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
 		<Item Name="Remove JSON Tag.vi" Type="VI" URL="../support/Remove JSON Tag.vi"/>
