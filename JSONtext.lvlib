@@ -108,6 +108,7 @@
 			<Item Name="Parse Path Object Items.vi" Type="VI" URL="../Parse Path Object Items.vi"/>
 			<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
 			<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
+			<Item Name="Path plus name.vi" Type="VI" URL="../support/Path plus name.vi"/>
 		</Item>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
 		<Item Name="Advance past colon.vi" Type="VI" URL="../Advance past colon.vi"/>

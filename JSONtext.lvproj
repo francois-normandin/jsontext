@@ -16,7 +16,7 @@
 		<Item Name="Exclude from VIPM" Type="Folder">
 			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Exclude from VIPM/Utility ASCII values.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
+		<Item Name="Old Tests" Type="Folder">
 			<Item Name="strings tests" Type="Folder">
 				<Item Name="array of strings json test.vi" Type="VI" URL="../Tests/strings tests/array of strings json test.vi"/>
 				<Item Name="escape string performance.vi" Type="VI" URL="../Tests/strings tests/escape string performance.vi"/>
@@ -28,32 +28,34 @@
 			<Item Name="Blockchain example.vi" Type="VI" URL="../Tests/Blockchain example.vi"/>
 			<Item Name="Blockchain test.vi" Type="VI" URL="../Tests/Blockchain test.vi"/>
 			<Item Name="Canada JSON.vi" Type="VI" URL="../Tests/Canada JSON.vi"/>
-			<Item Name="Delete Insert Test.vi" Type="VI" URL="../Tests/Delete Insert Test.vi"/>
 			<Item Name="JSON2 oblect item lookup test.vi" Type="VI" URL="../Tests/JSON2 oblect item lookup test.vi"/>
 			<Item Name="JSON2 speed.vi" Type="VI" URL="../Tests/JSON2 speed.vi"/>
-			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
-			<Item Name="Test Case Error or No Error.vi" Type="VI" URL="../Tests/Test Case Error or No Error.vi"/>
-			<Item Name="Test Case No Error.vi" Type="VI" URL="../Tests/Test Case No Error.vi"/>
-			<Item Name="Test Section Cluster Tools.vi" Type="VI" URL="../Tests/Test Section Cluster Tools.vi"/>
-			<Item Name="Example JSON Difference.vi" Type="VI" URL="../Examples/Example JSON Difference.vi"/>
 			<Item Name="Test Unnamed Clusters to JSON Arrays.vi" Type="VI" URL="../Tests/Test Unnamed Clusters to JSON Arrays.vi"/>
 			<Item Name="Example Colour JSON items in a string control.vi" Type="VI" URL="../Examples/Example Colour JSON items in a string control.vi"/>
 			<Item Name="Variant Tools Test Arrays.vi" Type="VI" URL="../Tests/Variant Tools Test Arrays.vi"/>
 			<Item Name="Variant Tools Test.vi" Type="VI" URL="../Tests/Variant Tools Test.vi"/>
 			<Item Name="Var Tools Speed.vi" Type="VI" URL="../Tests/Var Tools Speed.vi"/>
 		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Section Cluster Tools.vi" Type="VI" URL="../Tests/Test Section Cluster Tools.vi"/>
+			<Item Name="Test Case Error or No Error.vi" Type="VI" URL="../Tests/Test Case Error or No Error.vi"/>
+			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
+			<Item Name="Delete Insert Test.vi" Type="VI" URL="../Tests/Delete Insert Test.vi"/>
+		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
 			<Item Name="JSONtext Clusters to Objects or Arrays.vi" Type="VI" URL="../Examples/JSONtext Clusters to Objects or Arrays.vi"/>
 			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
 			<Item Name="Merge Objects.vi" Type="VI" URL="../Examples/Merge Objects.vi"/>
+			<Item Name="Example JSON Difference.vi" Type="VI" URL="../Examples/Example JSON Difference.vi"/>
+			<Item Name="JSONtext Path examples.vi" Type="VI" URL="../Examples/JSONtext Path examples.vi"/>
 		</Item>
 		<Item Name="Probes" Type="Folder">
 			<Item Name="JSONtext Pretty Print.vi" Type="VI" URL="../Probes/JSONtext Pretty Print.vi"/>
 		</Item>
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
-		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../JSONtext Tree VI.vi"/>
+		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>

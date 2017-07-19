@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-14 14:12:04" Creator="James.Powell" Comments="" ID="fc44156fbfdd0bde67c86d5040383723">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-19 15:37:57" Creator="James.Powell" Comments="" ID="d1b3ccf1c626abca72360fb2c2e48cf5">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.7.2.39</Library_Version>
+    <Library_Version>0.8.0.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -40,6 +40,7 @@ Difference of two objects
 "Display text from JSON" for more human-readable text.
 New, smaller "To JSON text" and "From JSON Text" poly VIs
 Use of VIMs in 2015 (that work as VIM  in 2017)
+Redo of JSONpath system
 </Release_Notes>
     </Description>
     <Destinations>
@@ -531,7 +532,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>Insert LVtype into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5698C9887C63C3524495F8F89914794</GUID>
+      <GUID>B1DA1C77B02697333466CFAB300A9CD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -636,7 +637,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>From JSON Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F735032ED09520555195A7628377879</GUID>
+      <GUID>F97AB9C6F3FE05C99BB6E2648A199BD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -713,7 +714,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45927D545AEEFEB5DD7C0BD66EC35B54</GUID>
+      <GUID>0CA27D4A5FAA2F8122AA7EBBC299EB13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -762,7 +763,7 @@ Use of VIMs in 2015 (that work as VIM  in 2017)
         <Path>String Subset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AACF7C4603F091B366C9F05D1E3E36E8</GUID>
+      <GUID>26CEAC81C898318760E71972E7A23ED3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
