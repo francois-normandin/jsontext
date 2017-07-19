@@ -51,6 +51,7 @@
 		</Item>
 		<Item Name="To be Depracted" Type="Folder">
 			<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
+			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
 		<Item Name="VIMs for 2017+" Type="Folder">
 			<Item Name="Find Object Item (as LVtype) by Path.vim" Type="VI" URL="../Find Object Item (as LVtype) by Path.vim"/>
@@ -78,7 +79,6 @@
 		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
 		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
-		<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
