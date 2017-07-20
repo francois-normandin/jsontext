@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-20 14:41:21" Creator="James.Powell" Comments="" ID="bf00e5be342dd29d8541e3ae1ed5273f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-20 14:56:54" Creator="James.Powell" Comments="" ID="fb6c39e4829657d15d52131544fc3870">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.8.0.43</Library_Version>
+    <Library_Version>0.8.1.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -546,7 +546,7 @@ Redo of JSONpath system
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>701AED355D85FFF3B597F1ADDD1995AD</GUID>
+      <GUID>F4E11EF365B0D83F3AA778BAC883DC17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +651,7 @@ Redo of JSONpath system
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F83B17EC07378B55C01D333AA5E163E</GUID>
+      <GUID>F33D2E1FFFC1AE3B346CE7EEE9AB4E3A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +728,7 @@ Redo of JSONpath system
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>741ABEF33E8D307140C5E35BC10F2CD6</GUID>
+      <GUID>79B878D5203FDEF44CDAD4AB4DA320FE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -791,7 +791,7 @@ Redo of JSONpath system
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1360B76F2F1546C422D08D71194A5E8</GUID>
+      <GUID>1816FD1D12423E793F656EDD5CFDC346</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
