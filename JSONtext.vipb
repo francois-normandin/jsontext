@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-20 08:00:15" Creator="James.Powell" Comments="" ID="9c3dae6b476756d0df89967cadf06acd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-20 14:41:21" Creator="James.Powell" Comments="" ID="bf00e5be342dd29d8541e3ae1ed5273f">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
     <Library_Version>0.8.0.43</Library_Version>
@@ -546,7 +546,7 @@ Redo of JSONpath system
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92B27BACDBA2EB98CB829F81BBD1243C</GUID>
+      <GUID>701AED355D85FFF3B597F1ADDD1995AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -640,7 +640,7 @@ Redo of JSONpath system
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>From JSON Text.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Strip UTF8 Byte Order Mark (if present).vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -648,10 +648,10 @@ Redo of JSONpath system
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>From JSON Text.vi</Path>
+        <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B93913A168434BEAF019D29654AFDCD1</GUID>
+      <GUID>3F83B17EC07378B55C01D333AA5E163E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +728,7 @@ Redo of JSONpath system
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>449B8997938CDAC360F6329F3A1FD547</GUID>
+      <GUID>741ABEF33E8D307140C5E35BC10F2CD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -752,7 +752,21 @@ Redo of JSONpath system
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Replace Item(s) at Offset.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>String Subset.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>String Subset.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Replace Item at Offset.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -760,13 +774,13 @@ Redo of JSONpath system
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Replace Item(s) at Offset.vi</Path>
+        <Path>Replace Item at Offset.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>String Subset.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Replace Multiple Items at Offsets.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -774,10 +788,10 @@ Redo of JSONpath system
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>String Subset.vi</Path>
+        <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61B4D9D15FAFC017F5D1EC4B03747DF2</GUID>
+      <GUID>B1360B76F2F1546C422D08D71194A5E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

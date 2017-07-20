@@ -80,6 +80,7 @@
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
 		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
+		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
 		<Item Name="Find Item Locations by Path.vi" Type="VI" URL="../Find Item Locations by Path.vi"/>
@@ -95,9 +96,8 @@
 		</Item>
 		<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
 		<Item Name="Replace Item(s) at Offset.vi" Type="VI" URL="../Replace Item(s) at Offset.vi"/>
-		<Item Name="Replace Items at Offset.vi" Type="VI" URL="../Replace Items at Offset.vi"/>
+		<Item Name="Replace Multiple Items at Offsets.vi" Type="VI" URL="../Replace Multiple Items at Offsets.vi"/>
 		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
-		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
 	</Item>
 	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
