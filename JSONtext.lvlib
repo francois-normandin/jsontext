@@ -10,8 +10,8 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Find by Path instances" Type="Folder">
-			<Item Name="Find Object Item (single) by Path.vi" Type="VI" URL="../Find Object Item (single) by Path.vi"/>
-			<Item Name="Find Object Items by Path.vi" Type="VI" URL="../Find Object Items by Path.vi"/>
+			<Item Name="Find Item.vi" Type="VI" URL="../Find Item.vi"/>
+			<Item Name="Find Multiple Items.vi" Type="VI" URL="../Find Multiple Items.vi"/>
 		</Item>
 		<Item Name="From JSON Text (instances)" Type="Folder">
 			<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
@@ -40,8 +40,8 @@
 			<Item Name="Get U64.vi" Type="VI" URL="../Get U64.vi"/>
 		</Item>
 		<Item Name="Insert" Type="Folder">
-			<Item Name="Insert into Object.vi" Type="VI" URL="../Insert into Object.vi"/>
-			<Item Name="Insert Multiple into Object.vi" Type="VI" URL="../Insert Multiple into Object.vi"/>
+			<Item Name="Set Item.vi" Type="VI" URL="../Set Item.vi"/>
+			<Item Name="Set Multiple Object Items.vi" Type="VI" URL="../Set Multiple Object Items.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
 			<Item Name="Read Multiple Sections.vim" Type="VI" URL="../Read Multiple Sections.vim"/>
@@ -54,9 +54,10 @@
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
 		<Item Name="VIMs for 2017+" Type="Folder">
-			<Item Name="Find Object Item (as LVtype) by Path.vim" Type="VI" URL="../Find Object Item (as LVtype) by Path.vim"/>
-			<Item Name="Find Object Items (as LVtype) by Path.vim" Type="VI" URL="../Find Object Items (as LVtype) by Path.vim"/>
+			<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
+			<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
 			<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
+			<Item Name="Set Item (as LVtype).vim" Type="VI" URL="../Set Item (as LVtype).vim"/>
 			<Item Name="To JSON Text.vim" Type="VI" URL="../To JSON Text.vim"/>
 		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
@@ -70,7 +71,6 @@
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
-		<Item Name="Insert LVtype into Object.vim" Type="VI" URL="../Insert LVtype into Object.vim"/>
 		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
