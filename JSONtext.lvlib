@@ -146,8 +146,10 @@
 		<Item Name="quote and escape json string 2.vi" Type="VI" URL="../support/quote and escape json string 2.vi"/>
 		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
 		<Item Name="Remove JSON Tag.vi" Type="VI" URL="../support/Remove JSON Tag.vi"/>
+		<Item Name="Remove trailing zeros.vi" Type="VI" URL="../Remove trailing zeros.vi"/>
 		<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
+		<Item Name="SGL to String with leading comma.vi" Type="VI" URL="../support/SGL to String with leading comma.vi"/>
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
 		<Item Name="Test Trim Whitspace.vi" Type="VI" URL="../Tests/Test Trim Whitspace.vi"/>
@@ -166,4 +168,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
+	<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Tests/Flattening of SGL arrays.vi"/>
+	<Item Name="SGL Aray to JSON.vi" Type="VI" URL="../support/SGL Aray to JSON.vi"/>
 </Library>

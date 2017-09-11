@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-07-20 14:56:54" Creator="James.Powell" Comments="" ID="fb6c39e4829657d15d52131544fc3870">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-11 14:49:15" Creator="James.Powell" Comments="" ID="0d195eb820d936c1d2c7f5b186662237">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.8.1.44</Library_Version>
+    <Library_Version>0.9.0.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -32,15 +32,7 @@
       <Copyright/>
       <Packager>James David Powell</Packager>
       <URL/>
-      <Release_Notes>Tools similar to OpenG INI section clusters: direct set/get Clusters from/to Items of a JSON Object
-Extensive small changes and bug fixes
-JSON Type VI
-Delete from Object
-Difference of two objects
-"Display text from JSON" for more human-readable text.
-New, smaller "To JSON text" and "From JSON Text" poly VIs
-Use of VIMs in 2015 (that work as VIM  in 2017)
-Redo of JSONpath system
+      <Release_Notes>Better flattening on SGL arrays (Fast as NI JSON, but 7 significant figures and trailing zeros surpressed)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -546,7 +538,7 @@ Redo of JSONpath system
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4E11EF365B0D83F3AA778BAC883DC17</GUID>
+      <GUID>8350EBBE2082BF317FE580F332D6958E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +643,7 @@ Redo of JSONpath system
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F33D2E1FFFC1AE3B346CE7EEE9AB4E3A</GUID>
+      <GUID>1E4690D0175A80C8D22248B82D524DDD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +720,7 @@ Redo of JSONpath system
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79B878D5203FDEF44CDAD4AB4DA320FE</GUID>
+      <GUID>4CC9557590DDA76243F73B577E71DF02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -791,7 +783,7 @@ Redo of JSONpath system
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1816FD1D12423E793F656EDD5CFDC346</GUID>
+      <GUID>A6DAFF22BF7C43030A340CA59CB4D048</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
