@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-11 14:49:15" Creator="James.Powell" Comments="" ID="0d195eb820d936c1d2c7f5b186662237">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-13 12:20:15" Creator="James.Powell" Comments="" ID="64d881280520f82a04aa90a95e9b2724">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.9.0.44</Library_Version>
+    <Library_Version>0.9.0.45</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -137,10 +137,13 @@
         <Path>Tests</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/JSONtext Example.vi</Path>
+        <Path>Examples/JSONtext Clusters to Objects or Arrays.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/JSONtext Clusters to Objects or Arrays.vi</Path>
+        <Path>Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/JSONtext Example.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>Examples/Example of Arrays to JSON.vi</Path>
@@ -538,7 +541,7 @@
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8350EBBE2082BF317FE580F332D6958E</GUID>
+      <GUID>94143D91135E8231AF42222179696D00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -643,7 +646,7 @@
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E4690D0175A80C8D22248B82D524DDD</GUID>
+      <GUID>C7C99C484C0E422B99B915A150BF827D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -720,7 +723,7 @@
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CC9557590DDA76243F73B577E71DF02</GUID>
+      <GUID>655C83159723C58A6901242FA787D4C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -783,7 +786,7 @@
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6DAFF22BF7C43030A340CA59CB4D048</GUID>
+      <GUID>330F68C226992AC768D18F9E4D11CA58</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

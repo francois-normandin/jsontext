@@ -14,7 +14,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Exclude from VIPM" Type="Folder">
+			<Item Name="Test Trim Whitspace.vi" Type="VI" URL="../Tests/Test Trim Whitspace.vi"/>
 			<Item Name="Utility ASCII values.vi" Type="VI" URL="../Exclude from VIPM/Utility ASCII values.vi"/>
+			<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Exclude from VIPM/Flattening of SGL arrays.vi"/>
 		</Item>
 		<Item Name="Old Tests" Type="Folder">
 			<Item Name="strings tests" Type="Folder">
@@ -43,12 +45,12 @@
 			<Item Name="Test Case Error or No Error.vi" Type="VI" URL="../Tests/Test Case Error or No Error.vi"/>
 			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
 			<Item Name="Delete Insert Test.vi" Type="VI" URL="../Tests/Delete Insert Test.vi"/>
-			<Item Name="JSONtext and SQlite (requires SQLite LabVIEW).vi" Type="VI" URL="../Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi"/>
 			<Item Name="Timed Test.vi" Type="VI" URL="../Tests/Timed Test.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
 			<Item Name="JSONtext Clusters to Objects or Arrays.vi" Type="VI" URL="../Examples/JSONtext Clusters to Objects or Arrays.vi"/>
+			<Item Name="JSONtext and SQlite (requires SQLite LabVIEW).vi" Type="VI" URL="../Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi"/>
 			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
 			<Item Name="Merge Objects.vi" Type="VI" URL="../Examples/Merge Objects.vi"/>
 			<Item Name="Example JSON Difference.vi" Type="VI" URL="../Examples/Example JSON Difference.vi"/>
@@ -165,7 +167,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="Bind UTF-8 Text.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQL Statement/Bind UTF-8 Text.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Do Nothing subVI test.vi" Type="VI" URL="../Do Nothing subVI test.vi"/>

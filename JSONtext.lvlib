@@ -149,10 +149,10 @@
 		<Item Name="Remove trailing zeros.vi" Type="VI" URL="../Remove trailing zeros.vi"/>
 		<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
+		<Item Name="SGL Aray to JSON.vi" Type="VI" URL="../support/SGL Aray to JSON.vi"/>
 		<Item Name="SGL to String with leading comma.vi" Type="VI" URL="../support/SGL to String with leading comma.vi"/>
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
-		<Item Name="Test Trim Whitspace.vi" Type="VI" URL="../Tests/Test Trim Whitspace.vi"/>
 		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
 		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
@@ -168,6 +168,4 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
-	<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Tests/Flattening of SGL arrays.vi"/>
-	<Item Name="SGL Aray to JSON.vi" Type="VI" URL="../support/SGL Aray to JSON.vi"/>
 </Library>
