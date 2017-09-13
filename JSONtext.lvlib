@@ -53,6 +53,11 @@
 			<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
+		<Item Name="Variant API (pre-VIM)" Type="Folder">
+			<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
+			<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
+			<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
+		</Item>
 		<Item Name="VIMs for 2017+" Type="Folder">
 			<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
 			<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
@@ -71,8 +76,6 @@
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
 		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
-		<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
-		<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
 		<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
 		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
@@ -157,7 +160,6 @@
 		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
-		<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 	</Item>
 	<Item Name="YAML-like Text" Type="Folder">
 		<Item Name="Display Text from JSON.vi" Type="VI" URL="../Display Text/Display Text from JSON.vi"/>
