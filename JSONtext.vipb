@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-13 12:20:15" Creator="James.Powell" Comments="" ID="64d881280520f82a04aa90a95e9b2724">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-14 12:43:17" Creator="James.Powell" Comments="" ID="b206d66837e187638b2657aed60fda64">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
     <Library_Version>0.9.0.45</Library_Version>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>jdp_science_lib_common_utilities &gt;=1.0.0.2</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -541,7 +543,7 @@
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94143D91135E8231AF42222179696D00</GUID>
+      <GUID>FCEE9178605438B790A59099B8BCAE23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +648,7 @@
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7C99C484C0E422B99B915A150BF827D</GUID>
+      <GUID>9118A5852B3A0D8DF3915C5024A024CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -723,7 +725,7 @@
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>655C83159723C58A6901242FA787D4C1</GUID>
+      <GUID>92DD2EE8E89F6308B1D19C8231D0560B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +788,7 @@
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>330F68C226992AC768D18F9E4D11CA58</GUID>
+      <GUID>DC19461EC2B9A57D90FB5487A6DD31AB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

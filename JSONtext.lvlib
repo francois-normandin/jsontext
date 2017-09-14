@@ -110,7 +110,6 @@
 			<Item Name="Parse Path Array indexes.vi" Type="VI" URL="../Parse Path Array indexes.vi"/>
 			<Item Name="Parse Path Object Items.vi" Type="VI" URL="../Parse Path Object Items.vi"/>
 			<Item Name="Path Notation End Name.vi" Type="VI" URL="../Path Notation End Name.vi"/>
-			<Item Name="Path Notation Parse leading.vi" Type="VI" URL="../Path Notation Parse leading.vi"/>
 			<Item Name="Path plus name.vi" Type="VI" URL="../support/Path plus name.vi"/>
 		</Item>
 		<Item Name="Advance past Array.vi" Type="VI" URL="../Advance past Array.vi"/>
@@ -133,7 +132,6 @@
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Array of Variants to Cluster.vi" Type="VI" URL="../Array of Variants to Cluster.vi"/>
 		<Item Name="Combine Positions by type.vi" Type="VI" URL="../Combine Positions by type.vi"/>
 		<Item Name="Empty string is an Object.vi" Type="VI" URL="../support/Empty string is an Object.vi"/>
 		<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../support/Error Cluster From Error Code.vi"/>
