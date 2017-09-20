@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.FriendGUID" Type="Str">6149850f-51df-4d29-927b-01f0d906150d</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;8.&lt;&gt;N!%)&lt;BTU&amp;AZ+I/!L5Q(11['E%O[M#9&amp;H1F&lt;SIA$D#!+V!,;G&amp;;5!NKA8ZX.;+3),9O&gt;B!%8GIF]&gt;O`RUO+FHLZ*(X5&gt;+X=PFAO\6-\G5\*[@6\_X4OVN)`N&amp;_'4H-_@ZZ(4`0&lt;L_XHZ:^&gt;`TH`F;,X]F\_\T*=`2']_?`A2OV"2%VK5*VK;MN/3:\E3:\E3:\E12\E12\E12\E4O\E4O\E4O\E2G\E2G\E2G\E`3!8O=B&amp;$CF:0&amp;EIG43:)/E-2=F&lt;YEE]C3@R=+L%EXA34_**0(22YEE]C3@R*"['+@%EHM34?")05X6*^I-=4_*B?A7?Q".Y!E`A95E&amp;HA!1,":-(%Q#1U&amp;D]#8Q"*\!QV=&amp;HM!4?!*0Y+&amp;:A3@Q"*\!%XA9UH=FOK9&gt;Z(C92I\(]4A?R_.YG&amp;K/R`%Y(M@D?&amp;B/DM@R/!BH17&gt;S#()'/2W=%]@D?0C1YX%]DM@R/"[;_B8SPD..UQZS0)&lt;(]"A?QW.YG%+'R`!9(M.D?*B7BM@Q'"\$9XB93I&lt;(]"A?!W)MSP)S*D-''JW-Q0$Q[H?,^;M587,^E/LG6&gt;W5KJN.&gt;2/J&lt;A\626&gt;&gt;4.6&amp;5GW_;F.6G[8;".5@JU+L-+J&amp;6).&lt;2RVZ0V$XV"VV3^V1V^16&gt;5F&gt;N+'PX0&amp;Y0/JQ/'C`XWOXWWG\X7KTW7C^8GOV7GGZ8'KR7-S0A=]=]Q0B^&amp;Q;_$Z]P2_(&lt;T`'Y?ZB(,^](]&gt;(TMH`QP`H@_$:K!`[?1XW[!GYCDB@!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -151,7 +152,7 @@
 		<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Scalar JSON text to Variant.vi"/>
 		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
 		<Item Name="SGL Aray to JSON.vi" Type="VI" URL="../support/SGL Aray to JSON.vi"/>
-		<Item Name="SGL to String with leading comma.vi" Type="VI" URL="../support/SGL to String with leading comma.vi"/>
+		<Item Name="SGL to String.vi" Type="VI" URL="../support/SGL to String.vi"/>
 		<Item Name="Strip Quotes and Unescape.vi" Type="VI" URL="../support/Strip Quotes and Unescape.vi"/>
 		<Item Name="Tag for JSON Text.vi" Type="VI" URL="../support/Tag for JSON Text.vi"/>
 		<Item Name="Treatment of NaN and Inf.vi" Type="VI" URL="../support/Treatment of NaN and Inf.vi"/>
@@ -167,5 +168,11 @@
 		<Item Name="JSON Object to Display Text.vi" Type="VI" URL="../Display Text/JSON Object to Display Text.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+	</Item>
+	<Item Name="DBL Aray to JSON.vi" Type="VI" URL="../support/DBL Aray to JSON.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="DBL to String.vi" Type="VI" URL="../support/DBL to String.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>

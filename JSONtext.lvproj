@@ -20,6 +20,8 @@
 			<Item Name="Test all Data Types in Variant.vi" Type="VI" URL="../Tests/Test all Data Types in Variant.vi"/>
 			<Item Name="Delete Insert Test.vi" Type="VI" URL="../Tests/Delete Insert Test.vi"/>
 			<Item Name="Timed Test.vi" Type="VI" URL="../Tests/Timed Test.vi"/>
+			<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Tests/Flattening of SGL arrays.vi"/>
+			<Item Name="Test JSONtext.lvlib" Type="Library" URL="../support/Test JSONtext.lvlib"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
