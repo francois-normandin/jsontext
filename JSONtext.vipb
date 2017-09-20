@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-14 12:43:17" Creator="James.Powell" Comments="" ID="b206d66837e187638b2657aed60fda64">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-20 17:52:33" Creator="James.Powell" Comments="" ID="a6630a46a75759a9eb09be01f7a4d8c7">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.9.0.45</Library_Version>
+    <Library_Version>0.9.0.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -35,6 +35,7 @@
       <Packager>James David Powell</Packager>
       <URL/>
       <Release_Notes>Better flattening on SGL arrays (Fast as NI JSON, but 7 significant figures and trailing zeros surpressed)
+VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 2017 bug)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -122,6 +123,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JSONtext VIM Examples.zip</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -149,6 +156,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Examples/Example of Arrays to JSON.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/JSON Generator 100 elements.json</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -543,7 +553,7 @@
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCEE9178605438B790A59099B8BCAE23</GUID>
+      <GUID>52BCE7E7DD6F575831D1301DE0B00818</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -648,7 +658,7 @@
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9118A5852B3A0D8DF3915C5024A024CF</GUID>
+      <GUID>FE3B0A625D3138DEB7CD3487913F6C0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -725,7 +735,7 @@
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92DD2EE8E89F6308B1D19C8231D0560B</GUID>
+      <GUID>4198A366C0B19D4133A9FB1BF4C048DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,7 +798,7 @@
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC19461EC2B9A57D90FB5487A6DD31AB</GUID>
+      <GUID>83DDC7E56011965F315C83598497192D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
