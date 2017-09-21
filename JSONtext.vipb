@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-21 11:12:01" Creator="James.Powell" Comments="" ID="c454ef7ed4ba534cd1fe18f0fb874c1f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-21 11:41:51" Creator="James.Powell" Comments="" ID="d8c88e186aa301a224bdc1ae6361f6a9">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.9.0.48</Library_Version>
+    <Library_Version>1.0.0.50</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -157,6 +157,15 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
       </Exclusions>
       <Exclusions>
         <Path>Examples/Merge JSON Objects.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/Colour JSON items in a string control.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/JSON Difference.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/JSON Path.vi</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -565,7 +574,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BAC851FCA21CF36FE11EEAEFA7CB5F2</GUID>
+      <GUID>81AD0F081B6407DBF346EB6607BA2CA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -670,7 +679,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F5F913B6118BC0B6FD0C7E98E1FD530</GUID>
+      <GUID>D0F9F793B3D4450581BC885106B7C1BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +756,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE37806C167B39449FF10751D49A36F1</GUID>
+      <GUID>C0E41CA0170C6276B233AAC41B0C53F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +819,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>73ED7466789D5DB71BFA973F37DA51D3</GUID>
+      <GUID>1CBCF54BAC6136F67478198696EB3A87</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
