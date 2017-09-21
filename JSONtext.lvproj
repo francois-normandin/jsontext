@@ -22,15 +22,11 @@
 			<Item Name="Timed Test.vi" Type="VI" URL="../Tests/Timed Test.vi"/>
 			<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Tests/Flattening of SGL arrays.vi"/>
 			<Item Name="Test JSONtext.lvlib" Type="Library" URL="../support/Test JSONtext.lvlib"/>
+			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Tests/Example of Arrays to JSON.vi"/>
 		</Item>
-		<Item Name="Examples" Type="Folder">
-			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Examples/Example of Arrays to JSON.vi"/>
-			<Item Name="JSONtext Clusters to Objects or Arrays.vi" Type="VI" URL="../Examples/JSONtext Clusters to Objects or Arrays.vi"/>
-			<Item Name="JSONtext and SQlite (requires SQLite LabVIEW).vi" Type="VI" URL="../Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi"/>
-			<Item Name="JSONtext Example.vi" Type="VI" URL="../Examples/JSONtext Example.vi"/>
-			<Item Name="Merge Objects.vi" Type="VI" URL="../Examples/Merge Objects.vi"/>
-			<Item Name="Example JSON Difference.vi" Type="VI" URL="../Examples/Example JSON Difference.vi"/>
-			<Item Name="JSONtext Path examples.vi" Type="VI" URL="../Examples/JSONtext Path examples.vi"/>
+		<Item Name="Examples" Type="Folder" URL="../Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Probes" Type="Folder">
 			<Item Name="JSONtext Pretty Print.vi" Type="VI" URL="../Probes/JSONtext Pretty Print.vi"/>
@@ -85,6 +81,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 			</Item>
+			<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

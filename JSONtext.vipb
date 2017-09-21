@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-20 17:52:33" Creator="James.Powell" Comments="" ID="a6630a46a75759a9eb09be01f7a4d8c7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-21 11:12:01" Creator="James.Powell" Comments="" ID="c454ef7ed4ba534cd1fe18f0fb874c1f">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>0.9.0.47</Library_Version>
+    <Library_Version>0.9.0.48</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -34,7 +34,8 @@
       <Copyright/>
       <Packager>James David Powell</Packager>
       <URL/>
-      <Release_Notes>Better flattening on SGL arrays (Fast as NI JSON, but 7 significant figures and trailing zeros surpressed)
+      <Release_Notes>Better flattening on SGL and DBL arrays (Fast as NI JSON, but 7/15 significant figures and trailing zeros surpressed)
+Merge Cluster into Object VIM
 VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 2017 bug)
 </Release_Notes>
     </Description>
@@ -146,19 +147,16 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Tests</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/JSONtext Clusters to Objects or Arrays.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/JSONtext Example.vi</Path>
+        <Path>Examples/Clusters to JSON Objects or Arrays.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/Example of Arrays to JSON.vi</Path>
+        <Path>Examples/JSONtext API example.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/JSON Generator 100 elements.json</Path>
+        <Path>Examples/Merge JSON Objects.vi</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -553,7 +551,21 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52BCE7E7DD6F575831D1301DE0B00818</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Merge Cluster into Object.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Merge Cluster into Object.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>9BAC851FCA21CF36FE11EEAEFA7CB5F2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -658,7 +670,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE3B0A625D3138DEB7CD3487913F6C0F</GUID>
+      <GUID>5F5F913B6118BC0B6FD0C7E98E1FD530</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -735,7 +747,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4198A366C0B19D4133A9FB1BF4C048DC</GUID>
+      <GUID>FE37806C167B39449FF10751D49A36F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -798,7 +810,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83DDC7E56011965F315C83598497192D</GUID>
+      <GUID>73ED7466789D5DB71BFA973F37DA51D3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

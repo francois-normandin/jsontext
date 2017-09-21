@@ -59,32 +59,30 @@
 			<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 			<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
 		</Item>
-		<Item Name="VIMs for 2017+" Type="Folder">
-			<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
-			<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
-			<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
-			<Item Name="Set Item (as LVtype).vim" Type="VI" URL="../Set Item (as LVtype).vim"/>
-			<Item Name="To JSON Text.vim" Type="VI" URL="../To JSON Text.vim"/>
-		</Item>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Colour Items of a JSON string control.vi" Type="VI" URL="../Colour Items of a JSON string control.vi"/>
 		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
+		<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
+		<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
 		<Item Name="From JSON Text.vi" Type="VI" URL="../From JSON Text.vi"/>
+		<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
-		<Item Name="Insert Item(s).vi" Type="VI" URL="../Insert Item(s).vi"/>
 		<Item Name="JSON type.vi" Type="VI" URL="../JSON type.vi"/>
 		<Item Name="JSON Value Type.ctl" Type="VI" URL="../JSON Value Type.ctl"/>
 		<Item Name="Make JSON Array.vi" Type="VI" URL="../Make JSON Array.vi"/>
 		<Item Name="Make JSON Object.vi" Type="VI" URL="../Make JSON Object.vi"/>
+		<Item Name="Merge Cluster into Object.vim" Type="VI" URL="../Merge Cluster into Object.vim"/>
 		<Item Name="Merge into Object.vi" Type="VI" URL="../Merge into Object.vi"/>
 		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
+		<Item Name="Set Item (as LVtype).vim" Type="VI" URL="../Set Item (as LVtype).vim"/>
 		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
+		<Item Name="To JSON Text.vim" Type="VI" URL="../To JSON Text.vim"/>
 	</Item>
 	<Item Name="API Offset based" Type="Folder">
 		<Item Name="Find Item Locations by Path.vi" Type="VI" URL="../Find Item Locations by Path.vi"/>
