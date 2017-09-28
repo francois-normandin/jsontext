@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-21 11:41:51" Creator="James.Powell" Comments="" ID="d8c88e186aa301a224bdc1ae6361f6a9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-28 20:42:34" Creator="James.Powell" Comments="" ID="ff48736f6c675b997ac2371d9b5b3fbc">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.0.0.50</Library_Version>
+    <Library_Version>1.1.0.52</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -34,9 +34,7 @@
       <Copyright/>
       <Packager>James David Powell</Packager>
       <URL/>
-      <Release_Notes>Better flattening on SGL and DBL arrays (Fast as NI JSON, but 7/15 significant figures and trailing zeros surpressed)
-Merge Cluster into Object VIM
-VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 2017 bug)
+      <Release_Notes>link to mnu file
 </Release_Notes>
     </Description>
     <Destinations>
@@ -124,12 +122,6 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>JSONtext VIM Examples.zip</Path>
-        <Destination>1</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -150,22 +142,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Examples/JSONtext and SQlite (requires SQLite LabVIEW).vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Examples/Clusters to JSON Objects or Arrays.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/JSONtext API example.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/Merge JSON Objects.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/Colour JSON items in a string control.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/JSON Difference.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/JSON Path.vi</Path>
+        <Path>Examples/JSON Generator 100 elements.json</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -574,7 +551,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81AD0F081B6407DBF346EB6607BA2CA4</GUID>
+      <GUID>579DED19255A6F16E39A6C3359A24A09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -679,7 +656,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0F9F793B3D4450581BC885106B7C1BC</GUID>
+      <GUID>578FAC0F72EA1A6CB5C8E9C5745C44C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +733,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0E41CA0170C6276B233AAC41B0C53F3</GUID>
+      <GUID>FC652B7ACBDF852C6346517B3591C388</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -819,7 +796,7 @@ VIM-using examples added as ZIP file in the examples folder (workaround of VIPM 
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CBCF54BAC6136F67478198696EB3A87</GUID>
+      <GUID>7614C8A28785E3579870510616E75685</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
