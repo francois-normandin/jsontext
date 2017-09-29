@@ -10,52 +10,44 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Find by Path instances" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Find Item.vi" Type="VI" URL="../Find Item.vi"/>
 			<Item Name="Find Multiple Items.vi" Type="VI" URL="../Find Multiple Items.vi"/>
 		</Item>
-		<Item Name="From JSON Text (instances)" Type="Folder">
-			<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
-			<Item Name="From JSON Text (DBL).vi" Type="VI" URL="../From JSON Text (DBL).vi"/>
-			<Item Name="From JSON Text (I32).vi" Type="VI" URL="../From JSON Text (I32).vi"/>
-			<Item Name="From JSON Text (I64).vi" Type="VI" URL="../From JSON Text (I64).vi"/>
-			<Item Name="From JSON Text (LVObject).vi" Type="VI" URL="../From JSON Text (LVObject).vi"/>
-			<Item Name="From JSON Text (SGL).vi" Type="VI" URL="../From JSON Text (SGL).vi"/>
-			<Item Name="From JSON Text (string).vi" Type="VI" URL="../From JSON Text (string).vi"/>
-			<Item Name="From JSON Text (timestamp).vi" Type="VI" URL="../From JSON Text (timestamp).vi"/>
-			<Item Name="From JSON Text (U32).vi" Type="VI" URL="../From JSON Text (U32).vi"/>
-			<Item Name="From JSON Text (U64).vi" Type="VI" URL="../From JSON Text (U64).vi"/>
-			<Item Name="From JSON Text (Variant).vi" Type="VI" URL="../From JSON Text (Variant).vi"/>
-		</Item>
-		<Item Name="Get" Type="Folder">
-			<Item Name="Get Boolean.vi" Type="VI" URL="../Get Boolean.vi"/>
-			<Item Name="Get DBL.vi" Type="VI" URL="../Get DBL.vi"/>
-			<Item Name="Get I32.vi" Type="VI" URL="../Get I32.vi"/>
-			<Item Name="Get I64.vi" Type="VI" URL="../Get I64.vi"/>
-			<Item Name="Get LVObject.vi" Type="VI" URL="../Get LVObject.vi"/>
-			<Item Name="Get Number Text.vi" Type="VI" URL="../Get Number Text.vi"/>
-			<Item Name="Get SGL.vi" Type="VI" URL="../Get SGL.vi"/>
-			<Item Name="Get String.vi" Type="VI" URL="../Get String.vi"/>
-			<Item Name="Get Timestamp.vi" Type="VI" URL="../Get Timestamp.vi"/>
-			<Item Name="Get U32.vi" Type="VI" URL="../Get U32.vi"/>
-			<Item Name="Get U64.vi" Type="VI" URL="../Get U64.vi"/>
-		</Item>
-		<Item Name="Insert" Type="Folder">
-			<Item Name="Set Item.vi" Type="VI" URL="../Set Item.vi"/>
-			<Item Name="Set Multiple Object Items.vi" Type="VI" URL="../Set Multiple Object Items.vi"/>
+		<Item Name="Offset API" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
+			<Item Name="Replace Multiple Items at Offsets.vi" Type="VI" URL="../Replace Multiple Items at Offsets.vi"/>
+			<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Read Multiple Sections.vim" Type="VI" URL="../Read Multiple Sections.vim"/>
 			<Item Name="Read Section Cluster.vim" Type="VI" URL="../Read Section Cluster.vim"/>
 			<Item Name="Write Multiple Sections.vi" Type="VI" URL="../Write Multiple Sections.vi"/>
 			<Item Name="Write Section Cluster.vi" Type="VI" URL="../Write Section Cluster.vi"/>
 		</Item>
 		<Item Name="To be Depracted" Type="Folder">
+			<Item Name="From JSON Text (old poly)" Type="Folder">
+				<Item Name="From JSON Text (boolean).vi" Type="VI" URL="../From JSON Text (boolean).vi"/>
+				<Item Name="From JSON Text (DBL).vi" Type="VI" URL="../From JSON Text (DBL).vi"/>
+				<Item Name="From JSON Text (I32).vi" Type="VI" URL="../From JSON Text (I32).vi"/>
+				<Item Name="From JSON Text (I64).vi" Type="VI" URL="../From JSON Text (I64).vi"/>
+				<Item Name="From JSON Text (LVObject).vi" Type="VI" URL="../From JSON Text (LVObject).vi"/>
+				<Item Name="From JSON Text (SGL).vi" Type="VI" URL="../From JSON Text (SGL).vi"/>
+				<Item Name="From JSON Text (string).vi" Type="VI" URL="../From JSON Text (string).vi"/>
+				<Item Name="From JSON Text (timestamp).vi" Type="VI" URL="../From JSON Text (timestamp).vi"/>
+				<Item Name="From JSON Text (U32).vi" Type="VI" URL="../From JSON Text (U32).vi"/>
+				<Item Name="From JSON Text (U64).vi" Type="VI" URL="../From JSON Text (U64).vi"/>
+				<Item Name="From JSON Text (Variant).vi" Type="VI" URL="../From JSON Text (Variant).vi"/>
+				<Item Name="From JSON Text.vi" Type="VI" URL="../From JSON Text.vi"/>
+			</Item>
 			<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
 		<Item Name="Variant API (pre-VIM)" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 			<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 			<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
@@ -69,7 +61,6 @@
 		<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
 		<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
-		<Item Name="From JSON Text.vi" Type="VI" URL="../From JSON Text.vi"/>
 		<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>
 		<Item Name="Get Array Elements.vi" Type="VI" URL="../Get Array Elements.vi"/>
@@ -82,25 +73,34 @@
 		<Item Name="Next JSON Value.vi" Type="VI" URL="../Next JSON Value.vi"/>
 		<Item Name="Reformat.vi" Type="VI" URL="../Reformat.vi"/>
 		<Item Name="Set Item (as LVtype).vim" Type="VI" URL="../Set Item (as LVtype).vim"/>
+		<Item Name="Set Item.vi" Type="VI" URL="../Set Item.vi"/>
+		<Item Name="Set Multiple Object Items.vi" Type="VI" URL="../Set Multiple Object Items.vi"/>
 		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
 		<Item Name="To JSON Text.vim" Type="VI" URL="../To JSON Text.vim"/>
 	</Item>
-	<Item Name="API Offset based" Type="Folder">
-		<Item Name="Find Item Locations by Path.vi" Type="VI" URL="../Find Item Locations by Path.vi"/>
-		<Item Name="Find Object Item Locations by Names.vi" Type="VI" URL="../Find Object Item Locations by Names.vi"/>
-		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Find Object Item Offset by Name.vi"/>
-		<Item Name="Found Items.ctl" Type="VI" URL="../Parsing/Found Items.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get all Object Item Offsets.vi" Type="VI" URL="../Get all Object Item Offsets.vi"/>
-		<Item Name="Get Array Element Offsets.vi" Type="VI" URL="../Get Array Element Offsets.vi"/>
-		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing/Parsing State.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
-		<Item Name="Replace Item(s) at Offset.vi" Type="VI" URL="../Replace Item(s) at Offset.vi"/>
-		<Item Name="Replace Multiple Items at Offsets.vi" Type="VI" URL="../Replace Multiple Items at Offsets.vi"/>
-		<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
+	<Item Name="Get" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Get Boolean.vi" Type="VI" URL="../support/Get Boolean.vi"/>
+		<Item Name="Get DBL.vi" Type="VI" URL="../support/Get DBL.vi"/>
+		<Item Name="Get I32.vi" Type="VI" URL="../support/Get I32.vi"/>
+		<Item Name="Get I64.vi" Type="VI" URL="../support/Get I64.vi"/>
+		<Item Name="Get LVObject.vi" Type="VI" URL="../support/Get LVObject.vi"/>
+		<Item Name="Get Number Text.vi" Type="VI" URL="../support/Get Number Text.vi"/>
+		<Item Name="Get SGL.vi" Type="VI" URL="../support/Get SGL.vi"/>
+		<Item Name="Get String.vi" Type="VI" URL="../support/Get String.vi"/>
+		<Item Name="Get Timestamp.vi" Type="VI" URL="../support/Get Timestamp.vi"/>
+		<Item Name="Get U32.vi" Type="VI" URL="../support/Get U32.vi"/>
+		<Item Name="Get U64.vi" Type="VI" URL="../support/Get U64.vi"/>
+	</Item>
+	<Item Name="Offset" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Find Item Locations by Path.vi" Type="VI" URL="../Offset/Find Item Locations by Path.vi"/>
+		<Item Name="Find Object Item Locations by Names.vi" Type="VI" URL="../Offset/Find Object Item Locations by Names.vi"/>
+		<Item Name="Find Object Item Offset by Name.vi" Type="VI" URL="../Offset/Find Object Item Offset by Name.vi"/>
+		<Item Name="Found Items.ctl" Type="VI" URL="../Parsing/Found Items.ctl"/>
+		<Item Name="Get all Object Item Offsets.vi" Type="VI" URL="../Offset/Get all Object Item Offsets.vi"/>
+		<Item Name="Get Array Element Offsets.vi" Type="VI" URL="../Offset/Get Array Element Offsets.vi"/>
+		<Item Name="Parsing State.ctl" Type="VI" URL="../Parsing/Parsing State.ctl"/>
 	</Item>
 	<Item Name="Parsing" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

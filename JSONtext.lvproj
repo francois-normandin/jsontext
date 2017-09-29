@@ -34,6 +34,8 @@
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
 		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
+		<Item Name="Get and Set Test.vi" Type="VI" URL="../Tests/Get and Set Test.vi"/>
+		<Item Name="Control Descriptions Updater.vi" Type="VI" URL="../Documentation Tools/Control Descriptions Updater.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
