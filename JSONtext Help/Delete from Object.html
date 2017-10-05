@@ -1,0 +1,162 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Delete from Object.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Delete from Object.vi"></A><H2>JSONtext.lvlib:Delete from Object.vi</H2>
+<P>Deletes JSON item at the Path specified.</P>
+<P><IMG SRC="Images/Delete from Objectc.png" ALT="JSONtext.lvlib:Delete from Object.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>JSON</B> <P><a href="http://json.org">Input JSON</a>.  Optional &quot;Offset&quot; indicates an offset in this string pointing to the start of the JSON item to operate on.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>$Path or Item Name</B> <P><a href="Pages\JSON Path notation.html">JSON Path notation</a> starts with a $.   If not starting with a $, this input is treated as an item name (so &lt;name&gt; and $.&lt;name&gt; are equivalent).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Object Offset</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Item Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Found and Deleted</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;With Item Deleted</B> <P>Output JSON.  The &lt;JSON&gt; tag indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;Deleted</B> </TD>
+</TR>
+</Table>
+</BODY>
+</HTML>

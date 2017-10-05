@@ -12,11 +12,6 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="Find by Path instances" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-			<Item Name="Find Item.vi" Type="VI" URL="../Find Item.vi"/>
-			<Item Name="Find Multiple Items.vi" Type="VI" URL="../Find Multiple Items.vi"/>
-		</Item>
 		<Item Name="Offset API" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
@@ -61,7 +56,9 @@
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Find by Path.vi" Type="VI" URL="../Find by Path.vi"/>
 		<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
+		<Item Name="Find Item.vi" Type="VI" URL="../Find Item.vi"/>
 		<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>
+		<Item Name="Find Multiple Items.vi" Type="VI" URL="../Find Multiple Items.vi"/>
 		<Item Name="Find Object Items by Name.vi" Type="VI" URL="../Find Object Items by Name.vi"/>
 		<Item Name="From JSON Text.vim" Type="VI" URL="../From JSON Text.vim"/>
 		<Item Name="Get all Object Items.vi" Type="VI" URL="../Get all Object Items.vi"/>

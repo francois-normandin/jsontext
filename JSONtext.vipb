@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-09-28 20:42:34" Creator="James.Powell" Comments="" ID="ff48736f6c675b997ac2371d9b5b3fbc">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-05 21:56:52" Creator="James.Powell" Comments="" ID="4a018fd8e48ae2ab8ed1988d8184a3e7">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.1.0.52</Library_Version>
+    <Library_Version>1.2.0.59</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -35,6 +35,7 @@
       <Packager>James David Powell</Packager>
       <URL/>
       <Release_Notes>link to mnu file
+Extended Help on all API functions
 </Release_Notes>
     </Description>
     <Destinations>
@@ -59,7 +60,7 @@
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\JDP Science</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -122,6 +123,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JSONtext Help</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -143,6 +150,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Examples/JSON Generator 100 elements.json</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Documentation Tools</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -551,7 +561,7 @@
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>579DED19255A6F16E39A6C3359A24A09</GUID>
+      <GUID>AC3607422596F11A96046E117C109B25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -656,7 +666,7 @@
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>578FAC0F72EA1A6CB5C8E9C5745C44C0</GUID>
+      <GUID>432AB2FD66253680D996577E293E8984</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -733,7 +743,7 @@
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC652B7ACBDF852C6346517B3591C388</GUID>
+      <GUID>9EA4E6D555A15D1F697F0ED7267818CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -796,7 +806,7 @@
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7614C8A28785E3579870510616E75685</GUID>
+      <GUID>FB9861A91840FAE5710D0D1393FFB86A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
