@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-05 21:56:52" Creator="James.Powell" Comments="" ID="4a018fd8e48ae2ab8ed1988d8184a3e7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-11 15:12:13" Creator="James.Powell" Comments="" ID="27a9fc3381f387eb5c3740f76a7f614b">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.0.59</Library_Version>
+    <Library_Version>1.2.1.60</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Packager>James David Powell</Packager>
       <URL/>
       <Release_Notes>link to mnu file
-Extended Help on all API functions
+Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -561,7 +561,7 @@ Extended Help on all API functions
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC3607422596F11A96046E117C109B25</GUID>
+      <GUID>668D54CDD3352FC003F78B0F10EA8B3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -666,7 +666,7 @@ Extended Help on all API functions
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>432AB2FD66253680D996577E293E8984</GUID>
+      <GUID>3C539BF135B8FCD83D938F3BE7939E6F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -743,7 +743,7 @@ Extended Help on all API functions
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EA4E6D555A15D1F697F0ED7267818CA</GUID>
+      <GUID>E0A88C77791D3B53AF3D6D4A2576C614</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -806,7 +806,7 @@ Extended Help on all API functions
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB9861A91840FAE5710D0D1393FFB86A</GUID>
+      <GUID>6F7DBBF82840ACE542124E9B11376CA8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
