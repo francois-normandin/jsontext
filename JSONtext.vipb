@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-18 15:31:20" Creator="James.Powell" Comments="" ID="133f38e73b2c5bc984ba5cf42179a6ac">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-18 23:12:08" Creator="James.Powell" Comments="" ID="57f0687c27914cdd42cbf2e5abd726c7">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.1.60</Library_Version>
+    <Library_Version>1.2.2.65</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>jdp_science_lib_common_utilities &gt;=1.0.0.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jdp_science_lib_common_utilities &gt;=1.1.1.7</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -33,7 +33,7 @@
       <Description>Fast JSON Library for LabVIEW.   Does not use an intermediate representation as in previous libraries; just uses JSON text, and parses JSON text very quickly.</Description>
       <Copyright/>
       <Packager>James David Powell</Packager>
-      <URL/>
+      <URL>https://lavag.org/files/file/294-jsontext/</URL>
       <Release_Notes>link to mnu file
 Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 </Release_Notes>
@@ -561,7 +561,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E1F10A750C2FDD696B5538991F13B59</GUID>
+      <GUID>ECEBFBDFCE743894D893058B84342352</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -666,7 +666,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BE39C12062BAA148882BC2FA2B17382</GUID>
+      <GUID>B184FB252F15B8B4CFAF2AFF9273C94D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -743,7 +743,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0ED11824A5F72061CEE2D62A7B0D0ED6</GUID>
+      <GUID>BEFFE1B2A85EF4D1EDA079D2CA427F88</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -806,7 +806,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CAB865C5507DCBCA644953D7345C17CB</GUID>
+      <GUID>4F8337166E07FC43036DBD30C5124126</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

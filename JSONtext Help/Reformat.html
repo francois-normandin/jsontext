@@ -26,7 +26,7 @@
 <P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
 </TD>
 <TD>
-<B>Offset</B> <P>Optional Offset in the input JSON string.   Default is zero, the start of the string.  This Offset should point to teh start of teh JSON of interest (or to whitespace in front of it).</P>
+<B>Offset</B> <P><a href="Pages\Offsets.html">Optional Offset</a> in the input &quot;JSON&quot; string.   Default is zero, the start of the string.  This Offset should point to the start of the JSON Value of interest (or to whitespace in front of it).</P>
 </TD>
 </TR>
 </Table>
@@ -78,7 +78,10 @@
 <P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
 </TD>
 <TD>
-<B>Pretty Print Levels</B> </TD>
+<B>Pretty Print Levels</B> <P>Nested levels into the JSON in which to use new lines and indentation to make the text more easily readable.   </P>
+<P></P>
+<P>Note that short Objects/Arrays will not be so formated.</P>
+</TD>
 </TR>
 </Table>
 <Table>
@@ -96,7 +99,8 @@
 <P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
 </TD>
 <TD>
-<B>No Error on Empty Input String</B> </TD>
+<B>Format empty string as null</B> <P>If true, input strings that are empty (or only whitespace) are formatted as a null JSON value.  Otherwise, an empty input string is an error.</P>
+</TD>
 </TR>
 </Table>
 <Table>
@@ -115,7 +119,8 @@
 <P><IMG SRC="Images/istr.png" ALT="istr"></P>
 </TD>
 <TD>
-<B>&lt;JSON&gt;First JSON Value</B> </TD>
+<B>&lt;JSON&gt;First JSON Value</B> <P></P>
+</TD>
 </TR>
 </Table>
 <Table>
@@ -166,8 +171,11 @@
 <P><IMG SRC="Images/istr.png" ALT="istr"></P>
 </TD>
 <TD>
-<B>Rest of Input String after first JSON Value</B> </TD>
+<B>Rest of Input String</B> <P>Rest of the input string, after the found JSON Value.</P>
+</TD>
 </TR>
 </Table>
 </BODY>
 </HTML>
+
+<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>
