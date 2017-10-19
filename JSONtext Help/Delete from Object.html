@@ -6,6 +6,8 @@
 </HEAD>
 <BODY BGCOLOR="#FFFFFF">
 <A NAME="JSONtext.lvlib:Delete from Object.vi"></A><H2>JSONtext.lvlib:Delete from Object.vi</H2>
+<P>This function is DEPRECATED:  please use &quot;Delete.vi&quot; instead.</P>
+<P></P>
 <P>Deletes JSON item at the <a href="Pages\JSON Path notation.html">JSON Path</a> specified.   Only accepts paths that specify a unique Object item (no Arrays or multi-item lists), and thus only deletes one item.  Use &quot;Delete.vi&quot; to delete multiple items.</P>
 <P><IMG SRC="Images/Delete from Objectc.png" ALT="JSONtext.lvlib:Delete from Object.vi"></P>
 <Table>
@@ -105,7 +107,8 @@
 <P><IMG SRC="Images/istr.png" ALT="istr"></P>
 </TD>
 <TD>
-<B>&lt;JSON&gt;Deleted</B> </TD>
+<B>&lt;JSON&gt;Deleted</B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
 </TR>
 </Table>
 <Table>

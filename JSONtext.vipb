@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-19 12:09:14" Creator="James.Powell" Comments="" ID="26b7d5ba1bdb12bc0b13dde01f0273f3">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-19 14:01:14" Creator="James.Powell" Comments="" ID="0d7d9265d7d28f9f23160f316beeba9d">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.3.66</Library_Version>
+    <Library_Version>1.2.3.67</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <URL>https://lavag.org/files/file/294-jsontext/</URL>
       <Release_Notes>link to mnu file
 Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
-Delete.vi (delete multiple)
+Delete.vi replaces "Delete from Object.vi" (more capable)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -341,20 +341,6 @@ Delete.vi (delete multiple)
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Delete from Object.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>9</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Delete from Object.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Find Object Items by Name.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -569,14 +555,14 @@ Delete.vi (delete multiple)
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>1</Row>
           <Column>9</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A37C72FD98024A8933661630831E22B3</GUID>
+      <GUID>5B13A5F9558925823CEB29BBBD34122E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -681,7 +667,7 @@ Delete.vi (delete multiple)
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E4BB9E4A19BB866ED65FA605D68F768</GUID>
+      <GUID>35CAFDDC962B3BB3811A14A037F582B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -758,7 +744,7 @@ Delete.vi (delete multiple)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8282EB4722DF5C89799AB955682FDBA</GUID>
+      <GUID>866CC4DF1318BEF89BE07024B0D9353B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -821,7 +807,7 @@ Delete.vi (delete multiple)
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A30FEA6D1196D2EEE651FF2C99E1354</GUID>
+      <GUID>C1ED9E3D4C39DC9CDEE750778F1C6C77</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
