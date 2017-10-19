@@ -6,7 +6,7 @@
 </HEAD>
 <BODY BGCOLOR="#FFFFFF">
 <A NAME="JSONtext.lvlib:Delete from Object.vi"></A><H2>JSONtext.lvlib:Delete from Object.vi</H2>
-<P>Deletes JSON item at the Path specified.</P>
+<P>Deletes JSON item at the <a href="Pages\JSON Path notation.html">JSON Path</a> specified.   Only accepts paths that specify a unique Object item (no Arrays or multi-item lists), and thus only deletes one item.  Use &quot;Delete.vi&quot; to delete multiple items.</P>
 <P><IMG SRC="Images/Delete from Objectc.png" ALT="JSONtext.lvlib:Delete from Object.vi"></P>
 <Table>
 <TR valign=TOP>
@@ -21,20 +21,21 @@
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
 </TD>
 <TD>
-<B>$Path or Item Name</B> <P><a href="Pages\JSON Path notation.html">JSON Path</a> notation starts with a $.   If not starting with a $, this input is treated as an item name (so &lt;name&gt; and $.&lt;name&gt; are equivalent).</P>
+<B>Object Offset</B> <P><a href="Pages\Offsets.html">Optional Offset</a> in the input &quot;JSON&quot; string.   Default is zero, the start of the string.  This Offset should point to the start of the JSON Value of interest (or to whitespace in front of it).</P>
 </TD>
 </TR>
 </Table>
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
 </TD>
 <TD>
-<B>Object Offset</B> </TD>
+<B>$Path or Item Name</B> <P><a href="Pages\JSON Path notation.html">JSON Path</a> notation starts with a $.   If not starting with a $, this input is treated as an item name (so &lt;name&gt; and $.&lt;name&gt; are equivalent).</P>
+</TD>
 </TR>
 </Table>
 <Table>
@@ -82,6 +83,16 @@
 <Table>
 <TR valign=TOP>
 <TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;With Item Deleted</B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
 <P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
 </TD>
 <TD>
@@ -94,8 +105,7 @@
 <P><IMG SRC="Images/istr.png" ALT="istr"></P>
 </TD>
 <TD>
-<B>&lt;JSON&gt;With Item Deleted</B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
-</TD>
+<B>&lt;JSON&gt;Deleted</B> </TD>
 </TR>
 </Table>
 <Table>
@@ -140,16 +150,8 @@
 </TR>
 </Table>
 </UL>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="Images/istr.png" ALT="istr"></P>
-</TD>
-<TD>
-<B>&lt;JSON&gt;Deleted</B> </TD>
-</TR>
-</Table>
 </BODY>
 </HTML>
 
-<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>

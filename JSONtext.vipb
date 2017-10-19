@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-18 23:12:08" Creator="James.Powell" Comments="" ID="57f0687c27914cdd42cbf2e5abd726c7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-19 12:09:14" Creator="James.Powell" Comments="" ID="26b7d5ba1bdb12bc0b13dde01f0273f3">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.2.65</Library_Version>
+    <Library_Version>1.2.3.66</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -36,6 +36,7 @@
       <URL>https://lavag.org/files/file/294-jsontext/</URL>
       <Release_Notes>link to mnu file
 Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
+Delete.vi (delete multiple)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -561,7 +562,21 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Merge Cluster into Object.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECEBFBDFCE743894D893058B84342352</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Delete.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>9</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Delete.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A37C72FD98024A8933661630831E22B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -666,7 +681,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B184FB252F15B8B4CFAF2AFF9273C94D</GUID>
+      <GUID>6E4BB9E4A19BB866ED65FA605D68F768</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -743,7 +758,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEFFE1B2A85EF4D1EDA079D2CA427F88</GUID>
+      <GUID>E8282EB4722DF5C89799AB955682FDBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -806,7 +821,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F8337166E07FC43036DBD30C5124126</GUID>
+      <GUID>2A30FEA6D1196D2EEE651FF2C99E1354</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
