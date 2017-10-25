@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-19 14:01:14" Creator="James.Powell" Comments="" ID="0d7d9265d7d28f9f23160f316beeba9d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-25 21:21:49" Creator="James.Powell" Comments="" ID="abd365b2bd224c5b914ab021538430f5">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.3.67</Library_Version>
+    <Library_Version>1.2.5.70</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -127,6 +127,18 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
       <Destination_Overrides>
         <Path>JSONtext Help</Path>
         <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JSONtext Help.vi</Path>
+        <Destination>8</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JSONtext Help.txt</Path>
+        <Destination>8</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -562,7 +574,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B13A5F9558925823CEB29BBBD34122E</GUID>
+      <GUID>7B4DEC54BF3F886032811152DC634201</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -667,7 +679,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35CAFDDC962B3BB3811A14A037F582B1</GUID>
+      <GUID>A7223418FD2074C27354558A7EC63F6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -744,7 +756,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>866CC4DF1318BEF89BE07024B0D9353B</GUID>
+      <GUID>C3A74E28A6D89E706219D6388B548F0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -807,7 +819,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1ED9E3D4C39DC9CDEE750778F1C6C77</GUID>
+      <GUID>F808042A9AF2E43CE7D2E0CE8B3FA70F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
