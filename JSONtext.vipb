@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-10-25 21:21:49" Creator="James.Powell" Comments="" ID="abd365b2bd224c5b914ab021538430f5">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-11-13 20:56:34" Creator="James.Powell" Comments="" ID="51f62f426fc29c56f279c5b97dd04d96">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.5.70</Library_Version>
+    <Library_Version>1.2.6.71</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -37,6 +37,7 @@
       <Release_Notes>link to mnu file
 Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 Delete.vi replaces "Delete from Object.vi" (more capable)
+Fix issue with computers that use comma as decimal
 </Release_Notes>
     </Description>
     <Destinations>
@@ -574,7 +575,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B4DEC54BF3F886032811152DC634201</GUID>
+      <GUID>8005F4791C6B66DA1C142F279C36BE34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -679,7 +680,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7223418FD2074C27354558A7EC63F6E</GUID>
+      <GUID>8F779842895F1D3A155FE0C2901E863B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +757,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3A74E28A6D89E706219D6388B548F0A</GUID>
+      <GUID>CABEE338802F0CD6414D474DCF97E625</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -819,7 +820,7 @@ Delete.vi replaces "Delete from Object.vi" (more capable)
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F808042A9AF2E43CE7D2E0CE8B3FA70F</GUID>
+      <GUID>D57EFC6D58F48F0B89E6C2382790AF4D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
