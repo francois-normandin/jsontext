@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2017-11-14 12:46:51" Creator="James.Powell" Comments="" ID="efe0f3730c5880bddba75fd6e8f6aa83">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-09 23:03:14" Creator="James.Powell" Comments="" ID="487bdbb44b16575dfde0511a8106299b">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.7.72</Library_Version>
+    <Library_Version>1.2.8.73</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -38,6 +38,7 @@
 Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 Delete.vi replaces "Delete from Object.vi" (more capable)
 Fix issue with computers that use comma as decimal
+Workaround VIPM issue with VIMs in VIMs
 </Release_Notes>
     </Description>
     <Destinations>
@@ -575,7 +576,7 @@ Fix issue with computers that use comma as decimal
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31039879BD7DB2437BB9CF3DD422FAEC</GUID>
+      <GUID>A864C49E288417720DA410CA678D4032</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -680,7 +681,7 @@ Fix issue with computers that use comma as decimal
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32CEDA8813D34BFA0EAB744CD12F4E8C</GUID>
+      <GUID>D8833CE7FAC623B8605C86E116A8CEDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +758,7 @@ Fix issue with computers that use comma as decimal
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EAD2814A310921483246C765F8354173</GUID>
+      <GUID>63984137AE699F96990F73557563EF12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -820,7 +821,7 @@ Fix issue with computers that use comma as decimal
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F7FFFAF07281C13BE6D7FFE9616E18B</GUID>
+      <GUID>A6677EE0D5AE6097C8060428A398C6EE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
