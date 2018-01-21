@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-09 23:03:14" Creator="James.Powell" Comments="" ID="487bdbb44b16575dfde0511a8106299b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-21 22:34:48" Creator="James.Powell" Comments="" ID="f09413284fa948a2f28c9f7662374800">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
     <Library_Version>1.2.8.73</Library_Version>
@@ -83,7 +83,7 @@ Workaround VIPM issue with VIMs in VIMs
       <Help_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\JDP Science</Path>
       </Help_Menu>
       <Project_Templates>
         <LLB>false</LLB>
@@ -576,7 +576,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A864C49E288417720DA410CA678D4032</GUID>
+      <GUID>73497BD460ADEDC16DDF11706AD67C1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -681,7 +681,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Strip UTF8 Byte Order Mark (if present).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8833CE7FAC623B8605C86E116A8CEDE</GUID>
+      <GUID>876F882B76969849AE0344732829AC0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -758,7 +758,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63984137AE699F96990F73557563EF12</GUID>
+      <GUID>F6E0EF1A9C0F8D9FA5FE3928F19C657D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -821,7 +821,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6677EE0D5AE6097C8060428A398C6EE</GUID>
+      <GUID>368758D4C5E9514F7F18BE5F535962BE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
