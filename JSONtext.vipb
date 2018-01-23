@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-23 17:08:13" Creator="James.Powell" Comments="" ID="6a50ded733dc7ddc55fb9755800b9012">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-23 22:13:41" Creator="James.Powell" Comments="" ID="cbe433c622d138ddccea74530e108446">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.8.73</Library_Version>
+    <Library_Version>1.2.9.74</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -39,7 +39,7 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 Delete.vi replaces "Delete from Object.vi" (more capable)
 Fix issue with computers that use comma as decimal
 Workaround VIPM issue with VIMs in VIMs
-</Release_Notes>
+Flatten to/from Array of JSONpath functions</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -576,7 +576,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70BCF3CBC0289481F93997D9259E1F36</GUID>
+      <GUID>2813BEB7AE2CD7968F05D9C3F798D141</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -709,7 +709,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Unflatten JSONpath Array to Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D3C72CD514DE897A575A8990844524C</GUID>
+      <GUID>3392BB6D45F28C18D3969EBA1A7393E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +786,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F38A7336E1F11BA0E6C15D58A101E0B9</GUID>
+      <GUID>FB03D5C49358D8B9131D2CED9E0D0487</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -849,7 +849,7 @@ Workaround VIPM issue with VIMs in VIMs
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD2D2B007DD2B23D20BADD3276CF1401</GUID>
+      <GUID>FCDBCBA3AF476F4CE7C1754AA072546E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

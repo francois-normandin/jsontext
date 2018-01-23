@@ -24,6 +24,7 @@
 			<Item Name="Flattening of SGL arrays.vi" Type="VI" URL="../Tests/Flattening of SGL arrays.vi"/>
 			<Item Name="Test JSONtext.lvlib" Type="Library" URL="../support/Test JSONtext.lvlib"/>
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Tests/Example of Arrays to JSON.vi"/>
+			<Item Name="Test Flatten to Path.vi" Type="VI" URL="../Tests/Test Flatten to Path.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -50,7 +51,6 @@
 		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
 		<Item Name="Get and Set Test.vi" Type="VI" URL="../Tests/Get and Set Test.vi"/>
 		<Item Name="license JSONtext.txt" Type="Document" URL="../license JSONtext.txt"/>
-		<Item Name="Test Flatten to Path.vi" Type="VI" URL="../Tests/Test Flatten to Path.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
