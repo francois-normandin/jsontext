@@ -15,14 +15,17 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 
 </Property>
 	<Item Name="API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Array of Paths" Type="Folder">
+			<Item Name="Flatten JSON Object to JSONpath Array.vi" Type="VI" URL="../Flatten JSON Object to JSONpath Array.vi"/>
+			<Item Name="Unflatten JSONpath Array to Object.vi" Type="VI" URL="../Unflatten JSONpath Array to Object.vi"/>
+		</Item>
 		<Item Name="Offset API" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Replace Item at Offset.vi" Type="VI" URL="../Replace Item at Offset.vi"/>
 			<Item Name="Replace Multiple Items at Offsets.vi" Type="VI" URL="../Replace Multiple Items at Offsets.vi"/>
 			<Item Name="String Subset.vi" Type="VI" URL="../String Subset.vi"/>
 		</Item>
 		<Item Name="Section Cluster" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Read Multiple Sections.vim" Type="VI" URL="../Read Multiple Sections.vim"/>
 			<Item Name="Read Section Cluster.vim" Type="VI" URL="../Read Section Cluster.vim"/>
 			<Item Name="Write Multiple Sections.vi" Type="VI" URL="../Write Multiple Sections.vi"/>
@@ -47,7 +50,6 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
 		<Item Name="Variant API (pre-VIM)" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 			<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 			<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
