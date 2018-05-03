@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-01-23 22:13:41" Creator="James.Powell" Comments="" ID="cbe433c622d138ddccea74530e108446">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-05-03 11:28:16" Creator="James.Powell" Comments="" ID="1eeafbdea759e283e946f3ec1ea64336">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.9.74</Library_Version>
+    <Library_Version>1.2.10.75</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -39,7 +39,8 @@ Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
 Delete.vi replaces "Delete from Object.vi" (more capable)
 Fix issue with computers that use comma as decimal
 Workaround VIPM issue with VIMs in VIMs
-Flatten to/from Array of JSONpath functions</Release_Notes>
+Flatten to/from Array of JSONpath functions
+Fix issue with -Infinity becoming +Inf in LabVIEW DBL/SGL</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -576,7 +577,7 @@ Flatten to/from Array of JSONpath functions</Release_Notes>
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2813BEB7AE2CD7968F05D9C3F798D141</GUID>
+      <GUID>AF906E103D74E3D6435B98D62C375B16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -709,7 +710,35 @@ Flatten to/from Array of JSONpath functions</Release_Notes>
         <Path>Unflatten JSONpath Array to Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3392BB6D45F28C18D3969EBA1A7393E4</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Variant to JSON Text.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Variant to JSON Text.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>JSON text to Variant.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>JSON text to Variant.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>FB95DB13C49322EDFCBED00B698A5156</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +815,7 @@ Flatten to/from Array of JSONpath functions</Release_Notes>
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB03D5C49358D8B9131D2CED9E0D0487</GUID>
+      <GUID>D431938BE87291E846A11B1B007D7A40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -849,7 +878,7 @@ Flatten to/from Array of JSONpath functions</Release_Notes>
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCDBCBA3AF476F4CE7C1754AA072546E</GUID>
+      <GUID>F51EB05A0CD1AFEC25D643FA4997E3B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
