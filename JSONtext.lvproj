@@ -25,6 +25,9 @@
 			<Item Name="Example of Arrays to JSON.vi" Type="VI" URL="../Tests/Example of Arrays to JSON.vi"/>
 			<Item Name="Test Flatten to Path.vi" Type="VI" URL="../Tests/Test Flatten to Path.vi"/>
 			<Item Name="JSONtext All Tests.vi" Type="VI" URL="../Tests/JSONtext All Tests.vi"/>
+			<Item Name="Get and Set Test.vi" Type="VI" URL="../Tests/Get and Set Test.vi"/>
+			<Item Name="Find Multiple by Path Test.vi" Type="VI" URL="../Tests/Find Multiple by Path Test.vi"/>
+			<Item Name="Find by Path Test.vi" Type="VI" URL="../Tests/Find by Path Test.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -49,9 +52,7 @@
 		<Item Name="JSONtext.lvlib" Type="Library" URL="../JSONtext.lvlib"/>
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
 		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
-		<Item Name="Get and Set Test.vi" Type="VI" URL="../Tests/Get and Set Test.vi"/>
 		<Item Name="license JSONtext.txt" Type="Document" URL="../license JSONtext.txt"/>
-		<Item Name="Find by Path Test.vi" Type="VI" URL="../Tests/Find by Path Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
