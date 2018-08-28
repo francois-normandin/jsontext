@@ -175,5 +175,4 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		</Item>
 	</Item>
 	<Item Name="functions_JDP_Science_JSONtext.mnu" Type="Document" URL="/&lt;vilib&gt;/addons/functions_JDP_Science_JSONtext.mnu"/>
-	<Item Name="INI to JSON Test.vi" Type="VI" URL="../Tests/INI to JSON Test.vi"/>
 </Library>

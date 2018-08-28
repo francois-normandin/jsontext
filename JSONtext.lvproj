@@ -28,6 +28,7 @@
 			<Item Name="Get and Set Test.vi" Type="VI" URL="../Tests/Get and Set Test.vi"/>
 			<Item Name="Find Multiple by Path Test.vi" Type="VI" URL="../Tests/Find Multiple by Path Test.vi"/>
 			<Item Name="Find by Path Test.vi" Type="VI" URL="../Tests/Find by Path Test.vi"/>
+			<Item Name="INI to JSON Test.vi" Type="VI" URL="../Tests/INI to JSON Test.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
