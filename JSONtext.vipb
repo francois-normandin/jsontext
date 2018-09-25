@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-08-23 21:19:48" Creator="James.Powell" Comments="" ID="a366c460a3f8732688a146b7f38ebf1f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-09-25 13:24:32" Creator="James.Powell" Comments="" ID="ba26f0d5a6798efc4115c1a7fc0da140">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.11.78</Library_Version>
+    <Library_Version>1.2.11.79</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -41,7 +41,8 @@ Fix issue with computers that use comma as decimal
 Workaround VIPM issue with VIMs in VIMs
 Flatten to/from Array of JSONpath functions
 Fix issue with -Infinity becoming +Inf in LabVIEW DBL/SGL
-Fix bug in Find by Path (Issue 23)</Release_Notes>
+Fix bug in Find by Path (Issue 23)
+Support 3D numeric arrays in JSON to LV type</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -578,7 +579,7 @@ Fix bug in Find by Path (Issue 23)</Release_Notes>
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B24AEFE1D678BF99A3991BAF10A88CC7</GUID>
+      <GUID>B11EF1F8B4CF47EC9235FB2621B12FC6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +740,7 @@ Fix bug in Find by Path (Issue 23)</Release_Notes>
         <Path>JSON text to Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65528CE34462835302D4C9E2927E80DF</GUID>
+      <GUID>E1F4F03C81CA2EDC34E9E88F3805EC63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -816,7 +817,7 @@ Fix bug in Find by Path (Issue 23)</Release_Notes>
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F784AB45700D419A42C3E85D79CDD105</GUID>
+      <GUID>C6BA5E38F78D28956F91DAE1E4D9C1E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -879,7 +880,7 @@ Fix bug in Find by Path (Issue 23)</Release_Notes>
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>275E5E3701E36DD7513C4165DAB6D37B</GUID>
+      <GUID>0C952596A8AAE73841A0B670FE027C9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
