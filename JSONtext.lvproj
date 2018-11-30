@@ -29,6 +29,7 @@
 			<Item Name="Find Multiple by Path Test.vi" Type="VI" URL="../Tests/Find Multiple by Path Test.vi"/>
 			<Item Name="Find by Path Test.vi" Type="VI" URL="../Tests/Find by Path Test.vi"/>
 			<Item Name="INI to JSON Test.vi" Type="VI" URL="../Tests/INI to JSON Test.vi"/>
+			<Item Name="Type Specialization.vim" Type="VI" URL="../Exclude from VIPM/Type Specialization.vim"/>
 		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -57,6 +58,7 @@
 		<Item Name="JSONtext.vipb" Type="Document" URL="../JSONtext.vipb"/>
 		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
 		<Item Name="license JSONtext.txt" Type="Document" URL="../license JSONtext.txt"/>
+		<Item Name="UTF8 issues tests.vi" Type="VI" URL="../Tests/UTF8 issues tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

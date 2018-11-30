@@ -81,6 +81,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Set Multiple Object Items.vi" Type="VI" URL="../Set Multiple Object Items.vi"/>
 		<Item Name="Strip UTF8 Byte Order Mark (if present).vi" Type="VI" URL="../Strip UTF8 Byte Order Mark (if present).vi"/>
 		<Item Name="To JSON Text.vim" Type="VI" URL="../To JSON Text.vim"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

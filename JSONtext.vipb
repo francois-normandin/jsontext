@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-09-25 13:24:32" Creator="James.Powell" Comments="" ID="ba26f0d5a6798efc4115c1a7fc0da140">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2018-11-30 13:58:44" Creator="James.Powell" Comments="" ID="b1c9ac4d21445e758ab8e9ffd896df87">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.11.79</Library_Version>
+    <Library_Version>1.2.12.80</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -42,7 +42,8 @@ Workaround VIPM issue with VIMs in VIMs
 Flatten to/from Array of JSONpath functions
 Fix issue with -Infinity becoming +Inf in LabVIEW DBL/SGL
 Fix bug in Find by Path (Issue 23)
-Support 3D numeric arrays in JSON to LV type</Release_Notes>
+Support 3D numeric arrays in JSON to LV type
+Fix issues on VxWorks targets (warning: cannot support \u0000 zero codes)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -579,7 +580,7 @@ Support 3D numeric arrays in JSON to LV type</Release_Notes>
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B11EF1F8B4CF47EC9235FB2621B12FC6</GUID>
+      <GUID>4E7C83548FC8CCE729DC9FEE10A9FEAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +741,7 @@ Support 3D numeric arrays in JSON to LV type</Release_Notes>
         <Path>JSON text to Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1F4F03C81CA2EDC34E9E88F3805EC63</GUID>
+      <GUID>769F2B4E838D28B09EE36D4980C509B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -817,7 +818,7 @@ Support 3D numeric arrays in JSON to LV type</Release_Notes>
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6BA5E38F78D28956F91DAE1E4D9C1E8</GUID>
+      <GUID>DEDF96834CAF249B0FDF9878A89EA028</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -880,7 +881,7 @@ Support 3D numeric arrays in JSON to LV type</Release_Notes>
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C952596A8AAE73841A0B670FE027C9C</GUID>
+      <GUID>18B5A9D874AB0E97E4AC0106B6EAF533</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
