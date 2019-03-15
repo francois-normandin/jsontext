@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2019-02-18 13:43:44" Creator="James.Powell" Comments="" ID="527237513690c92351dda38699eba910">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2019-03-15 22:15:43" Creator="James.Powell" Comments="" ID="1a8ac0531f12782d04d7521b9b309c0a">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.2.13.83</Library_Version>
+    <Library_Version>1.3.0.84</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -23,9 +23,9 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>NI Palette\Remove JSONtext from palette.vi</Post-Install_VI>
+      <Post-Install_VI>NI Palette\On Install of JSONtext.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI>NI Palette\Add JSONtext to palette.vi</Post-Uninstall_VI>
+      <Post-Uninstall_VI>NI Palette\On Uninstall of JSONtext.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>JSONtext.vipc</VI_Package_Configuration_File>
     <Description>
@@ -34,17 +34,8 @@
       <Copyright/>
       <Packager>James David Powell</Packager>
       <URL>https://lavag.org/files/file/294-jsontext/</URL>
-      <Release_Notes>link to mnu file
-Extended Help on all API functions (except VIMs, due to LabVIEW build bug)
-Delete.vi replaces "Delete from Object.vi" (more capable)
-Fix issue with computers that use comma as decimal
-Workaround VIPM issue with VIMs in VIMs
-Flatten to/from Array of JSONpath functions
-Fix issue with -Infinity becoming +Inf in LabVIEW DBL/SGL
-Fix several minor issues
-Support 3D numeric arrays in JSON to LV type
-Fix issues on VxWorks targets (warning: cannot support \u0000 zero codes)
-Added ExtendedHelp to VIMS (WARNING: Known issue (15) with LabVIEW 2017; use SP1f1)</Release_Notes>
+      <Release_Notes>Add JSONtext menus as submenu of Flatten to String menu.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -581,7 +572,7 @@ Added ExtendedHelp to VIMS (WARNING: Known issue (15) with LabVIEW 2017; use SP1
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>217E192C6054F77DF3C63F04906D9766</GUID>
+      <GUID>2A68F5E58F06065EB3222A2EC2A0CE43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -742,7 +733,7 @@ Added ExtendedHelp to VIMS (WARNING: Known issue (15) with LabVIEW 2017; use SP1
         <Path>JSON text to Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A6AC2DE1B2D5CB9FBE3E79D54991D3A</GUID>
+      <GUID>7329260E694D18230CF1DD6866E293DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -819,7 +810,7 @@ Added ExtendedHelp to VIMS (WARNING: Known issue (15) with LabVIEW 2017; use SP1
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>932FCBCDBBEFE9C02BB5BB604118571D</GUID>
+      <GUID>528FEBB72BED15471FC6F082F5F4C260</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -882,7 +873,7 @@ Added ExtendedHelp to VIMS (WARNING: Known issue (15) with LabVIEW 2017; use SP1
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23C9F183E6A0E62126FA60A7569609BE</GUID>
+      <GUID>EF38467A24AD0FF74F464F86F845A967</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
