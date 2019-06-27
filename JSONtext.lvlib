@@ -60,6 +60,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
 		<Item Name="Delete.vi" Type="VI" URL="../Delete.vi"/>
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
+		<Item Name="Empty Invalid or Null.vi" Type="VI" URL="../Empty Invalid or Null.vi"/>
 		<Item Name="Find Item (as LVtype).vim" Type="VI" URL="../Find Item (as LVtype).vim"/>
 		<Item Name="Find Item.vi" Type="VI" URL="../Find Item.vi"/>
 		<Item Name="Find Multiple Items (as LVtype).vim" Type="VI" URL="../Find Multiple Items (as LVtype).vim"/>

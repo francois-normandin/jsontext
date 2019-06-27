@@ -30,6 +30,7 @@
 			<Item Name="Find by Path Test.vi" Type="VI" URL="../Tests/Find by Path Test.vi"/>
 			<Item Name="INI to JSON Test.vi" Type="VI" URL="../Tests/INI to JSON Test.vi"/>
 			<Item Name="Type Specialization.vim" Type="VI" URL="../Exclude from VIPM/Type Specialization.vim"/>
+			<Item Name="Test Empty Invalid Null.vi" Type="VI" URL="../Tests/Test Empty Invalid Null.vi"/>
 			<Item Name="Untitled 2.vi" Type="VI" URL="../Tests/Untitled 2.vi"/>
 			<Item Name="Untitled 1.vi" Type="VI" URL="../Tests/Untitled 1.vi"/>
 		</Item>
