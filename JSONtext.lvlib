@@ -46,6 +46,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 				<Item Name="From JSON Text (Variant).vi" Type="VI" URL="../From JSON Text (Variant).vi"/>
 				<Item Name="From JSON Text.vi" Type="VI" URL="../From JSON Text.vi"/>
 			</Item>
+			<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
 			<Item Name="Get as LabVIEW type (poly).vi" Type="VI" URL="../Get as LabVIEW type (poly).vi"/>
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
@@ -57,7 +58,6 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Array of Variants to JSON Array.vi" Type="VI" URL="../Array of Variants to JSON Array.vi"/>
 		<Item Name="Array of Variants to JSON Object.vi" Type="VI" URL="../Array of Variants to JSON Object.vi"/>
 		<Item Name="Colour Items of a JSON string control.vi" Type="VI" URL="../Colour Items of a JSON string control.vi"/>
-		<Item Name="Delete from Object.vi" Type="VI" URL="../Delete from Object.vi"/>
 		<Item Name="Delete.vi" Type="VI" URL="../Delete.vi"/>
 		<Item Name="Difference.vi" Type="VI" URL="../Difference.vi"/>
 		<Item Name="Empty Invalid or Null.vi" Type="VI" URL="../Empty Invalid or Null.vi"/>
@@ -141,7 +141,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="DBL Aray to JSON.vi" Type="VI" URL="../support/DBL Aray to JSON.vi"/>
 		<Item Name="DBL to String.vi" Type="VI" URL="../support/DBL to String.vi"/>
 		<Item Name="Empty string is an Object.vi" Type="VI" URL="../support/Empty string is an Object.vi"/>
-		<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../support/Error Cluster From Error Code.vi"/>
+		<Item Name="Error Cluster From Code.vi" Type="VI" URL="../support/Error Cluster From Code.vi"/>
 		<Item Name="Find (Create) Object.vi" Type="VI" URL="../Parsing/Find (Create) Object.vi"/>
 		<Item Name="Format Error.vi" Type="VI" URL="../support/Format Error.vi"/>
 		<Item Name="Format JSON Array Text.vi" Type="VI" URL="../support/Format JSON Array Text.vi"/>

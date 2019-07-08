@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2019-03-15 22:15:43" Creator="James.Powell" Comments="" ID="1a8ac0531f12782d04d7521b9b309c0a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-22 17:00:49" Modified_Date="2019-07-06 09:25:25" Creator="James.Powell" Comments="" ID="cec3974946f7df63df0c35c3795bffe1">
   <Library_General_Settings>
     <Package_File_Name>JDP_Science_JSONtext</Package_File_Name>
-    <Library_Version>1.3.0.84</Library_Version>
+    <Library_Version>1.4.0.87</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -34,8 +34,12 @@
       <Copyright/>
       <Packager>James David Powell</Packager>
       <URL>https://lavag.org/files/file/294-jsontext/</URL>
-      <Release_Notes>Add JSONtext menus as submenu of Flatten to String menu.
-</Release_Notes>
+      <Release_Notes>Custom Error codes
+Added "Empty Invalid or Null" VI
+Bitbucket Issues resolved:
+#31: Support fixed-point numbers
+#32: Need an “Is Empty” function
+#34: Array of Enums bug</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -55,7 +59,7 @@
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\errors</Path>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
@@ -137,6 +141,12 @@
       <Destination_Overrides>
         <Path>JSONtext Help.txt</Path>
         <Destination>8</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JSONtext-errors.txt</Path>
+        <Destination>3</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -572,7 +582,21 @@
         <Path>Delete.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A68F5E58F06065EB3222A2EC2A0CE43</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Empty Invalid or Null.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Empty Invalid or Null.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>BC28A5B555234DF18ED63111EDBF4F50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -733,7 +757,7 @@
         <Path>JSON text to Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7329260E694D18230CF1DD6866E293DB</GUID>
+      <GUID>1E0C241082F172414B4BC2552F020F53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +834,7 @@
         <Path>Write Multiple Sections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>528FEBB72BED15471FC6F082F5F4C260</GUID>
+      <GUID>0FF9FFC3897EC95F8CEE96564687A90C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -873,7 +897,7 @@
         <Path>Replace Multiple Items at Offsets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF38467A24AD0FF74F464F86F845A967</GUID>
+      <GUID>B3F06EBD739B27D562D1B61EC3ABD52F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

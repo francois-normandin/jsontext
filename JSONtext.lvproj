@@ -33,6 +33,7 @@
 			<Item Name="Test Empty Invalid Null.vi" Type="VI" URL="../Tests/Test Empty Invalid Null.vi"/>
 			<Item Name="Untitled 2.vi" Type="VI" URL="../Tests/Untitled 2.vi"/>
 			<Item Name="Untitled 1.vi" Type="VI" URL="../Tests/Untitled 1.vi"/>
+			<Item Name="Correct Error codes.vi" Type="VI" URL="../Tests/Correct Error codes.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -62,6 +63,7 @@
 		<Item Name="JSONtext Tree VI.vi" Type="VI" URL="../Exclude from VIPM/JSONtext Tree VI.vi"/>
 		<Item Name="license JSONtext.txt" Type="Document" URL="../license JSONtext.txt"/>
 		<Item Name="UTF8 issues tests.vi" Type="VI" URL="../Tests/UTF8 issues tests.vi"/>
+		<Item Name="JSONtext-errors.txt" Type="Document" URL="../JSONtext-errors.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
