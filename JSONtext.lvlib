@@ -50,6 +50,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 			<Item Name="Object Items (poly).vi" Type="VI" URL="../Object Items (poly).vi"/>
 		</Item>
 		<Item Name="Variant API (pre-VIM)" Type="Folder">
+			<Item Name="JSON text to Variant (advanced).vi" Type="VI" URL="../JSON text to Variant (advanced).vi"/>
 			<Item Name="JSON text to Variant (path).vi" Type="VI" URL="../JSON text to Variant (path).vi"/>
 			<Item Name="JSON text to Variant.vi" Type="VI" URL="../JSON text to Variant.vi"/>
 			<Item Name="Variant to JSON Text.vi" Type="VI" URL="../Variant to JSON Text.vi"/>
