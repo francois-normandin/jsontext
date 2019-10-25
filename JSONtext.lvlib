@@ -147,6 +147,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Format JSON Object.vi" Type="VI" URL="../support/Format JSON Object.vi"/>
 		<Item Name="Get all positions.vi" Type="VI" URL="../Parsing/Get all positions.vi"/>
 		<Item Name="Insert.vi" Type="VI" URL="../support/Insert.vi"/>
+		<Item Name="is Integer.vi" Type="VI" URL="../support/is Integer.vi"/>
 		<Item Name="Is Scaler Type.vi" Type="VI" URL="../support/Is Scaler Type.vi"/>
 		<Item Name="Line Size (pretty print).vi" Type="VI" URL="../Parsing/Line Size (pretty print).vi"/>
 		<Item Name="NaN or null to Integer ERROR.vi" Type="VI" URL="../Parsing/NaN or null to Integer ERROR.vi"/>
@@ -154,6 +155,7 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Quote and Escape JSON string.vi" Type="VI" URL="../support/Quote and Escape JSON string.vi"/>
 		<Item Name="Remove JSON Tag.vi" Type="VI" URL="../support/Remove JSON Tag.vi"/>
 		<Item Name="Remove trailing zeros.vi" Type="VI" URL="../support/Remove trailing zeros.vi"/>
+		<Item Name="Scalar JSON text to Variant (from Void).vi" Type="VI" URL="../Parsing/Scalar JSON text to Variant (from Void).vi"/>
 		<Item Name="Scalar JSON text to Variant.vi" Type="VI" URL="../Parsing/Scalar JSON text to Variant.vi"/>
 		<Item Name="Scan Timestamp.vi" Type="VI" URL="../support/Scan Timestamp.vi"/>
 		<Item Name="SGL Aray to JSON.vi" Type="VI" URL="../support/SGL Aray to JSON.vi"/>
@@ -164,6 +166,9 @@ Copyright 2017 JDP Science Limited, Oxford, UK.</Property>
 		<Item Name="Trim Input JSON (and null).vi" Type="VI" URL="../support/Trim Input JSON (and null).vi"/>
 		<Item Name="Trim Whitespace__JSONtext.vi" Type="VI" URL="../support/Trim Whitespace__JSONtext.vi"/>
 		<Item Name="Unescape JSON string.vi" Type="VI" URL="../support/Unescape JSON string.vi"/>
+		<Item Name="Variant_BuildArrayFromElementArray.vi" Type="VI" URL="../support/Variant_BuildArrayFromElementArray.vi"/>
+		<Item Name="Variant_BuildClusterFromElementArray.vi" Type="VI" URL="../support/Variant_BuildClusterFromElementArray.vi"/>
+		<Item Name="Variant_SetName.vi" Type="VI" URL="../support/Variant_SetName.vi"/>
 	</Item>
 	<Item Name="YAML-like Text" Type="Folder">
 		<Item Name="Display Text from JSON.vi" Type="VI" URL="../Display Text/Display Text from JSON.vi"/>
